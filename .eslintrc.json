@@ -7,6 +7,11 @@
       "files": ["*.ts", "*.tsx"],
       "parserOptions": {
         "project": "tsconfig.json"
+      },
+      "rules": {
+        "@typescript-eslint/no-misused-promises": "off",
+        "@typescript-eslint/no-floating-promises": "off",
+        "@typescript-eslint/restrict-template-expressions": "off"
       }
     }
   ],
@@ -17,6 +22,7 @@
   "plugins": ["@typescript-eslint"],
   "extends": ["next/core-web-vitals", "plugin:@typescript-eslint/recommended"],
   "rules": {
-    "@typescript-eslint/consistent-type-imports": "warn"
+    "@typescript-eslint/consistent-type-imports": "warn",
+    "react/display-name": "off"
   }
 }
