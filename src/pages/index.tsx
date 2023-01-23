@@ -19,7 +19,10 @@ export default function Landing() {
           </h1>
           {authContext.isUserAuthenticated() ?
           <Card link="/main" title="Super Secret" message="I guess you are already logged in. Check out the super secret page!"/> :
-          <Card link="/login" title="Sign In" message="This is all you can do in this software security app 😔"/>
+          <div className="flex gap-12">
+            <Card link="/login" title="Sign In" message="This is all you can do in this software security app 😔"/>
+            <Card link="/register" title="Sign Up" message="I guess I had to add this feature so that new 😊"/>
+          </div>
           }
         </div>
       </main>
