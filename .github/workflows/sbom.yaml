@@ -9,6 +9,8 @@ jobs:
     name: Install and build javascript
     steps:
       - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.PAT }}
 
       - name: Setup node
         uses: actions/setup-node@v3
