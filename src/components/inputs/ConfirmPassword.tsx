@@ -5,13 +5,13 @@ export type ConfirmPasswordProps = {
     className?: string
 }
 
-export function ConfirmPassword({ password, className = "" }:ConfirmPasswordProps) {
+export function ConfirmPassword({ password, className = "" }: ConfirmPasswordProps) {
     const { correctLength, hasNumbers, hasCapital } = checkPassword(password)
 
     return <div className={className}>
         <p><ConfirmIcon done={correctLength}/> Minimum {MIN_PASSWORD_LENGTH} characters</p>
         <p><ConfirmIcon done={hasNumbers}/> Includes number</p>
-        <p><ConfirmIcon done={hasCapital}/> Has Capitol</p>
+        <p><ConfirmIcon done={hasCapital}/> Has Capital</p>
     </div>
 }
 
