@@ -1,0 +1,2977 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.3" serialNumber="urn:uuid:30851693-215e-4fa7-affa-45e795396be8" version="1">
+    <metadata>
+        <timestamp>2023-01-25T18:29:04.637Z</timestamp>
+        <tools>
+            <tool>
+                <vendor>CycloneDX</vendor>
+                <name>Node.js module</name>
+                <version>3.10.6</version>
+            </tool>
+        </tools>
+        <component type="library" bom-ref="pkg:npm/software-security-app@0.1.0">
+            <name>software-security-app</name>
+            <version>0.1.0</version>
+            <description>
+                <![CDATA[This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.]]>
+            </description>
+            <purl>pkg:npm/software-security-app@0.1.0</purl>
+        </component>
+    </metadata>
+    <components>
+        <component type="library" bom-ref="pkg:npm/%40hookform/resolvers@2.9.10">
+            <author>bluebill1049</author>
+            <group>@hookform</group>
+            <name>resolvers</name>
+            <version>2.9.10</version>
+            <description>
+                <![CDATA[React Hook Form validation resolvers: Yup, Joi, Superstruct, Zod, Vest, Class Validator, io-ts, Nope, computed-types and Typanion]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">2482f50e0248947f72bb170d1adca1b165ff3e0365b73fb91abebef125fd7e15dcfe13db10893ac0f23cda7860be9dee51be997c03399aa83fc7b291ecd01bf8</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/%40hookform/resolvers@2.9.10</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://react-hook-form.com</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/react-hook-form/resolvers/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/react-hook-form/resolvers.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/%40prisma/client@4.8.1">
+            <author>Tim Suchanek</author>
+            <group>@prisma</group>
+            <name>client</name>
+            <version>4.8.1</version>
+            <description>
+                <![CDATA[Prisma Client is an auto-generated, type-safe and modern JavaScript/TypeScript ORM for Node.js that's tailored to your data. Supports MySQL, PostgreSQL, MariaDB, SQLite databases.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">778c6166111399e5caff267b2b429c54ecc47c8e58286184af8179481574e3f314e2770dfc7704dbcb32ddee18b7c5055b466e22628540913ef6b5adf566c649</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/%40prisma/client@4.8.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://www.prisma.io</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/prisma/prisma/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/prisma/prisma.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/%40prisma/engines-version@4.8.0-61.d6e67a83f971b175a593ccc12e15c4a757f93ffe">
+            <author>Tim Suchanek</author>
+            <group>@prisma</group>
+            <name>engines-version</name>
+            <version>4.8.0-61.d6e67a83f971b175a593ccc12e15c4a757f93ffe</version>
+            <description>
+                <![CDATA[This package exports the Prisma Engines version to be downloaded from Prisma CDN.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">30748e49ec689913289bc40de2dedbbbcef03cf0fea5afa15bdfbbd499d5705dc3ab2c8eff27022e144bd707b71288d1a59c4abeec86868d91110b0c0afc5c27</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/%40prisma/engines-version@4.8.0-61.d6e67a83f971b175a593ccc12e15c4a757f93ffe</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/prisma/engines-wrapper#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/prisma/engines-wrapper/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/prisma/engines-wrapper.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/%40tanstack/react-query@4.22.0">
+            <author>tannerlinsley</author>
+            <group>@tanstack</group>
+            <name>react-query</name>
+            <version>4.22.0</version>
+            <description>
+                <![CDATA[Hooks for managing, caching and syncing asynchronous and remote data in React]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">3fda3e1e31b8dae07fc4747a74cb0968f86d6727527b8bf4c5d1b91bf7048f5a076405de94c966ebbfeb60935018a8016a628494aa208fe1d8185f8d636c8762</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/%40tanstack/react-query@4.22.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://tanstack.com/query</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/tanstack/query/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/tanstack/query.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/use-sync-external-store@1.2.0">
+            <name>use-sync-external-store</name>
+            <version>1.2.0</version>
+            <description>
+                <![CDATA[Backwards compatible shim for React's useSyncExternalStore. Works with any React that supports hooks.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">784827171190d487def5bcd8b3a54b8bcff85fa08e6c7330f50afdb4f638de22b0b0fc3cc44f3e105b1fff67056794b77ac5e0a5682d482b4b352e3517eb0a3c</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/use-sync-external-store@1.2.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/facebook/react#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/facebook/react/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/facebook/react.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/%40tanstack/query-core@4.22.0">
+            <author>tannerlinsley</author>
+            <group>@tanstack</group>
+            <name>query-core</name>
+            <version>4.22.0</version>
+            <description>
+                <![CDATA[The framework agnostic core that powers TanStack Query]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">39e2f204a050a13dbae5fe46f5b8917a28de3fc981c4d17063b654bb574a2fe633aa91b9ab9cfb27f375793f1a5b22ae8720d38941ee2a6e65fa8215cdbb6b8f</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/%40tanstack/query-core@4.22.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://tanstack.com/query</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/tanstack/query/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/tanstack/query.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/%40trpc/client@10.8.1">
+            <author>KATT</author>
+            <group>@trpc</group>
+            <name>client</name>
+            <version>10.8.1</version>
+            <description>
+                <![CDATA[tRPC Client lib]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">0d0f98dde93fae3098688f227de7953d55bf2883baaf2c9edf65dd9bd54091d85dd61ba6603ff8acdd8243b2b5ccf4de3696c8a6e72410030469d781e08b5c31</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/%40trpc/client@10.8.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://trpc.io</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/trpc/trpc/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/trpc/trpc.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/%40trpc/next@10.8.1">
+            <author>KATT</author>
+            <group>@trpc</group>
+            <name>next</name>
+            <version>10.8.1</version>
+            <description>
+                <![CDATA[tRPC Next lib]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">2729f8db53e0670a093d4a1d416c674fe008d63feeff46a23aef9f4afc107a8b782c50afeb5427b03e089157587656ff0a720a65640885854eefa4611c736684</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/%40trpc/next@10.8.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://trpc.io</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/trpc/trpc/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/trpc/trpc.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/react-ssr-prepass@1.5.0">
+            <author>Phil Plückthun</author>
+            <name>react-ssr-prepass</name>
+            <version>1.5.0</version>
+            <description>
+                <![CDATA[A custom partial React SSR renderer for prefetching and suspense]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">c85347ae554445e5582ac2c8e65174e6d6681ef780e691b38c56c5258ff7a4eaaa8c63a6326ab1f373788488cdda7e84d4039af9e404531b370a04673e64f445</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/react-ssr-prepass@1.5.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/FormidableLabs/react-ssr-prepass#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/FormidableLabs/react-ssr-prepass/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+ssh://git@github.com/FormidableLabs/react-ssr-prepass.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/%40trpc/react-query@10.8.1">
+            <author>KATT</author>
+            <group>@trpc</group>
+            <name>react-query</name>
+            <version>10.8.1</version>
+            <description>
+                <![CDATA[tRPC React lib]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">3d2a5d7cf14a33f5250fd555b5756d7c0f199aa41952db0fe8447ff90bd78c737a91367dd8f1891a370bd875a15996a62ca9d94a0b9d881eac0ec97b80f70e80</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/%40trpc/react-query@10.8.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://trpc.io</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/trpc/trpc/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/trpc/trpc.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/%40trpc/server@10.8.1">
+            <author>KATT</author>
+            <group>@trpc</group>
+            <name>server</name>
+            <version>10.8.1</version>
+            <description>
+                <![CDATA[tRPC Server]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">a123588053496e3922e23041c89fd22876ac07f5fb913b046d519a38d347d431cccfadfcc656173d0b9c57ed9b59b8429b91e55e141369537b3abd25b02b9451</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/%40trpc/server@10.8.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://trpc.io</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/trpc/trpc/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/trpc/trpc.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/bcrypt@5.1.0">
+            <author>Nick Campbell</author>
+            <name>bcrypt</name>
+            <version>5.1.0</version>
+            <description>
+                <![CDATA[A bcrypt library for NodeJS.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">447052ec7239379b449c64e6b51fe9a695f49a60d206943868206c8fb08441f6170dc3bbe00f2c20161c24cb82b22b3613cd730f178435886febaa19c0b880f9</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/bcrypt@5.1.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/kelektiv/node.bcrypt.js#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/kelektiv/node.bcrypt.js/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/kelektiv/node.bcrypt.js.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/%40mapbox/node-pre-gyp@1.0.10">
+            <author>Dane Springmeyer</author>
+            <group>@mapbox</group>
+            <name>node-pre-gyp</name>
+            <version>1.0.10</version>
+            <description>
+                <![CDATA[Node.js native addon binary install tool]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">e324a8e028f34adba9accc24df91f9a4f6e4ca68efd521778c62e3eab007a7fc53fd117b4cbedb77d0939b5c43638f4adaa17b8e647f83b93e4a42c44cfea8a4</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>BSD-3-Clause</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/%40mapbox/node-pre-gyp@1.0.10</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/mapbox/node-pre-gyp#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/mapbox/node-pre-gyp/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/mapbox/node-pre-gyp.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/detect-libc@2.0.1">
+            <author>Lovell Fuller</author>
+            <name>detect-libc</name>
+            <version>2.0.1</version>
+            <description>
+                <![CDATA[Node.js module to detect the C standard library (libc) implementation family and version]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">e3adefdd9788adc5ad760220eaf23a5d49dc82ebebd939c69784b30d78a792df6648ba4124a5d3de65bac53dd541d0cdd75f9656cdbda60be2bd37382e9f2ffb</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/detect-libc@2.0.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/lovell/detect-libc#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/lovell/detect-libc/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/lovell/detect-libc.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/https-proxy-agent@5.0.1">
+            <author>Nathan Rajlich</author>
+            <name>https-proxy-agent</name>
+            <version>5.0.1</version>
+            <description>
+                <![CDATA[An HTTP(s) proxy `http.Agent` implementation for HTTPS]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">7457008e94d0160a0b3330b657053e0bf09b4bbb912f49569b10c84e6aa6ec2fbb17439d9a3eacf65e9a95973a0042d786b9e080cd827964971c639d5f662dc0</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/https-proxy-agent@5.0.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/TooTallNate/node-https-proxy-agent#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/TooTallNate/node-https-proxy-agent/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/TooTallNate/node-https-proxy-agent.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/agent-base@6.0.2">
+            <author>Nathan Rajlich</author>
+            <name>agent-base</name>
+            <version>6.0.2</version>
+            <description>
+                <![CDATA[Turn a function into an `http.Agent` instance]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">45937035c945efe312ffc6c383bd1a9a0df6772799199c620ee42667128b025423af78c6c8bc7ee0a924e7c50eec3d90760148402a2fb92b991129dee911ba5d</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/agent-base@6.0.2</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/TooTallNate/node-agent-base#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/TooTallNate/node-agent-base/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/TooTallNate/node-agent-base.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/debug@4.3.4">
+            <author>Josh Junon</author>
+            <name>debug</name>
+            <version>4.3.4</version>
+            <description>
+                <![CDATA[Lightweight debugging utility for Node.js and the browser]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">3d15851ee494dde0ed4093ef9cd63b25c91eb758f4b793ae3ac1733cfcec7a40f9d9997ca947c520f122b305ea22f1d61951ce817fbb1bfbc234d85e870c5f91</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/debug@4.3.4</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/debug-js/debug#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/debug-js/debug/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/debug-js/debug.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/ms@2.1.2">
+            <name>ms</name>
+            <version>2.1.2</version>
+            <description>
+                <![CDATA[Tiny millisecond conversion utility]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">b0690fc7e56332d980e8c5f6ee80381411442c50996784b85ea7863970afebcb53fa36f7be4fd1c9a2963f43d32b25ad98b48cd1bf9a7544c4bdbb353c4687db</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/ms@2.1.2</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/zeit/ms#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/zeit/ms/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/zeit/ms.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/make-dir@3.1.0">
+            <author>Sindre Sorhus</author>
+            <name>make-dir</name>
+            <version>3.1.0</version>
+            <description>
+                <![CDATA[Make a directory and its parents if needed - Think `mkdir -p`]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">83715e3f6d0b3708402dbffa0b3e837781769e0cded23cfbb5bceb0f6c0057ea3d15e3477b8acbfb22b699dd09fdf8927f5b1ad400e15ea8b9fa857038cfde1b</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/make-dir@3.1.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/sindresorhus/make-dir#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/sindresorhus/make-dir/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/sindresorhus/make-dir.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/semver@6.3.0">
+            <name>semver</name>
+            <version>6.3.0</version>
+            <description>
+                <![CDATA[The semantic version parser used by npm.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">341d5cb462f9ae51eb3c9b450d5215cd3c90ca530bbbd37d548080e87485268f0c086553316ea07e989cc0a9a62bf7408d33abaaee65eb72493a90d2ac08acdc</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/semver@6.3.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/npm/node-semver#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/npm/node-semver/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/npm/node-semver.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/node-fetch@2.6.8">
+            <author>David Frank</author>
+            <name>node-fetch</name>
+            <version>2.6.8</version>
+            <description>
+                <![CDATA[A light-weight module that brings window.fetch to node.js]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">459e9d058ba3f1d4527f1a544aef8db1d1757693e996e271c0ea7ee88a03a7fb07d903434afbab62c01af85d56c58d918c0d623fddf185cb14a186c5d9706a56</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/node-fetch@2.6.8</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/bitinn/node-fetch</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/bitinn/node-fetch/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/bitinn/node-fetch.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/whatwg-url@5.0.0">
+            <author>Sebastian Mayr</author>
+            <name>whatwg-url</name>
+            <version>5.0.0</version>
+            <description>
+                <![CDATA[An implementation of the WHATWG URL Standard's URL API and parsing machinery]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">b1a139ee7ba9c64eafdc7637e7e8f307061ad2b292cb45d1f094b164fc202ebef2b34201ce11af880d7f4d41892e6495aacf296fd027bc809712e3872e9ad84f</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/whatwg-url@5.0.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/jsdom/whatwg-url#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/jsdom/whatwg-url/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/jsdom/whatwg-url.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/tr46@0.0.3">
+            <author>Sebastian Mayr</author>
+            <name>tr46</name>
+            <version>0.0.3</version>
+            <description>
+                <![CDATA[An implementation of the Unicode TR46 spec]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">37758cb2ea95eba953df40ab5cd6c48f1e06130968c37bfaaebe2609cbfaa6b9dfc214b4d6b920c857633cd05877d6ebecba57575f849a1d357c79ead86760af</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/tr46@0.0.3</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/Sebmaster/tr46.js#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/Sebmaster/tr46.js/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/Sebmaster/tr46.js.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/webidl-conversions@3.0.1">
+            <author>Domenic Denicola</author>
+            <name>webidl-conversions</name>
+            <version>3.0.1</version>
+            <description>
+                <![CDATA[Implements the WebIDL algorithms for converting to and from JavaScript values]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">d89027df3f0047aae32bc4a6f28ad10b487f6dc97f0ea2fbb513dd199e08d428dd17e11a30b998c411f25ee28bf38f5eb9c3c586f068c4cb1f95f39bf24c5a79</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>BSD-2-Clause</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/webidl-conversions@3.0.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/jsdom/webidl-conversions#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/jsdom/webidl-conversions/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/jsdom/webidl-conversions.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/nopt@5.0.0">
+            <author>Isaac Z. Schlueter</author>
+            <name>nopt</name>
+            <version>5.0.0</version>
+            <description>
+                <![CDATA[Option parsing for Node, supporting types, shorthands, etc. Used by npm.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">4db8faeeb7dfa9c79e2e97115eb4fbbca00df02c1f3de20180cec4ea206498a2d5edb10cc291a060b1afd2300252c10269afefbb13f42231289edeae99d320b5</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/nopt@5.0.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/npm/nopt#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/npm/nopt/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/npm/nopt.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/abbrev@1.1.1">
+            <author>Isaac Z. Schlueter</author>
+            <name>abbrev</name>
+            <version>1.1.1</version>
+            <description>
+                <![CDATA[Like ruby's abbrev module, but in js]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">9e77bdfc8890fe1cc8858ea97439db06dcfb0e33d32ab634d0fff3bcf4a6e69385925eb1b86ac69d79ff56d4cd35f36d01f67dff546d7a192ccd4f6a7138a2d1</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/abbrev@1.1.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/isaacs/abbrev-js#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/isaacs/abbrev-js/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+ssh://git@github.com/isaacs/abbrev-js.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/npmlog@5.0.1">
+            <author>Isaac Z. Schlueter</author>
+            <name>npmlog</name>
+            <version>5.0.1</version>
+            <description>
+                <![CDATA[logger for npm]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">02a66d0d458e30ab351bff25c329558eb75882a03877d9eef2173ed20cd1c650dbd48d74f851c118c5ece9a8901c574251496a1fdf4c50cb8b7f3583343b5fc7</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/npmlog@5.0.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/npm/npmlog#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/npm/npmlog/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/npm/npmlog.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/are-we-there-yet@2.0.0">
+            <author>GitHub Inc.</author>
+            <name>are-we-there-yet</name>
+            <version>2.0.0</version>
+            <description>
+                <![CDATA[Keep track of the overall completion of many disparate processes]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">0a2fea10d9b01e7b18a3dc4a21c5093792de0ca749e91d59d63f55fc9e70caaf2787f9983c4a482896c1657b598c6d381e22bbcd5fe9e95b3df79d8cacc79423</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/are-we-there-yet@2.0.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/npm/are-we-there-yet</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/npm/are-we-there-yet/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/npm/are-we-there-yet.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/delegates@1.0.0">
+            <name>delegates</name>
+            <version>1.0.0</version>
+            <description>
+                <![CDATA[delegate methods and accessors to another property]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">6ddd8bebbf2e89601333a9b967557334212b2378e21b3b7a1c663c395202b38d0942afc700b7dbc8d266a745036a4118e2930c68dd0bcb9a26fc1d5523ffb17d</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/delegates@1.0.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/visionmedia/node-delegates#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/visionmedia/node-delegates/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/visionmedia/node-delegates.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/readable-stream@3.6.0">
+            <name>readable-stream</name>
+            <version>3.6.0</version>
+            <description>
+                <![CDATA[Streams3, a user-land copy of the stream library from Node.js]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">055887cbb2ca793cf8a0d9e470b27e95548beafa6215e5fafddde8487f33096ed4c4fda89dc864faf4c6075e37c6e1631d2ddd7938242a85d7ca65eaca688874</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/readable-stream@3.6.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/nodejs/readable-stream#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/nodejs/readable-stream/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/nodejs/readable-stream.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/inherits@2.0.4">
+            <name>inherits</name>
+            <version>2.0.4</version>
+            <description>
+                <![CDATA[Browser-friendly inheritance fully compatible with standard node.js inherits()]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">93fbc6697e3f6256b75b3c8c0af4d039761e207bea38ab67a8176ecd31e9ce9419cc0b2428c859d8af849c189233dcc64a820578ca572b16b8758799210a9ec1</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/inherits@2.0.4</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/isaacs/inherits#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/isaacs/inherits/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/isaacs/inherits.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/string_decoder@1.3.0">
+            <name>string_decoder</name>
+            <version>1.3.0</version>
+            <description>
+                <![CDATA[The string_decoder module from Node core]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">864457f14d568c915df0bb03276c90ff0596c5aa2912c0015355df90cf00fa3d3ef392401a9a6dd7a72bd56860e8a21b6f8a2453a32a97a04e8febaea7fc0a78</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/string_decoder@1.3.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/nodejs/string_decoder</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/nodejs/string_decoder/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/nodejs/string_decoder.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/safe-buffer@5.2.1">
+            <author>Feross Aboukhadijeh</author>
+            <name>safe-buffer</name>
+            <version>5.2.1</version>
+            <description>
+                <![CDATA[Safer Node.js Buffer API]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">ae9dd2a34eca71d9a629b1af81a37141226bedb1954959394bd12ad45fa9a5b468ef4f9879a0f1930e4377c34f37e183e9b8e7626d95b8fb825e6a6e62f9825d</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/safe-buffer@5.2.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/feross/safe-buffer</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/feross/safe-buffer/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/feross/safe-buffer.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/util-deprecate@1.0.2">
+            <author>Nathan Rajlich</author>
+            <name>util-deprecate</name>
+            <version>1.0.2</version>
+            <description>
+                <![CDATA[The Node.js `util.deprecate()` function with browser support]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">10f0f9ab5b97c85c49a42acb9c27359c79eade039ae83641a1c008888d93692080ed5089d5424331a802cc891736c5187c3d5d68afff2d3110f318886eb1ed73</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/util-deprecate@1.0.2</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/TooTallNate/util-deprecate</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/TooTallNate/util-deprecate/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/TooTallNate/util-deprecate.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/console-control-strings@1.1.0">
+            <author>Rebecca Turner</author>
+            <name>console-control-strings</name>
+            <version>1.1.0</version>
+            <description>
+                <![CDATA[A library of cross-platform tested terminal/console command strings for doing things like color and cursor positioning.  This is a subset of both ansi and vt100.  All control codes included work on both Windows & Unix-like OSes, except where noted.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">b72fdf4de929a43d9f23046f9d901575e3a219dd5ced85c48b16e0253373a9cc4958a4278c9fd5d5b344104ea1ca0a4cdd68f01c55152ba1d38d64b35786bcb1</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/console-control-strings@1.1.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/iarna/console-control-strings#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/iarna/console-control-strings/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/iarna/console-control-strings.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/gauge@3.0.2">
+            <author>Rebecca Turner</author>
+            <name>gauge</name>
+            <version>3.0.2</version>
+            <description>
+                <![CDATA[A terminal based horizontal guage]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">fb927a312ff95e4b02b97abefae151b2751decebeed577a76deb88b8d449c585a38106cfb85853d78940bec59fa9f0269f096e7f53b0323cf7f478df2cf722d1</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/gauge@3.0.2</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/npm/gauge</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/npm/gauge/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/iarna/gauge.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/aproba@2.0.0">
+            <author>Rebecca Turner</author>
+            <name>aproba</name>
+            <version>2.0.0</version>
+            <description>
+                <![CDATA[A ridiculously light-weight argument validator (now browser friendly)]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">9587b81b1ed04fe30a19b0ec03e67e85efd6b5e7f4062c033a52bf5e406b75fb21f49fe33cf5db5f4b44f71f5c976ed39aee608374146d4ad061aff2f8a3873d</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/aproba@2.0.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/iarna/aproba</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/iarna/aproba/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/iarna/aproba.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/color-support@1.1.3">
+            <author>Isaac Z. Schlueter</author>
+            <name>color-support</name>
+            <version>1.1.3</version>
+            <description>
+                <![CDATA[A module which will endeavor to guess your terminal's level of color support.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">aa20639296cc2cefc72faf32fa5878ab4fced4c6458f6457e97fca98c6b7fa0243df3f96c08d59cc31f2b2fa87192de63fa9b39cf724a579b0d6723d7098f246</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/color-support@1.1.3</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/isaacs/color-support#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/isaacs/color-support/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/isaacs/color-support.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/has-unicode@2.0.1">
+            <author>Rebecca Turner</author>
+            <name>has-unicode</name>
+            <version>2.0.1</version>
+            <description>
+                <![CDATA[Try to guess if your terminal supports unicode]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">f117fd63cdcd05178c9f1d2017303c248990002b2d098594a657a90daf71a6bc30b6680465417487f8b9c5203adb9cc1fc8dfb12daecc12493e8e5f1c1a68825</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/has-unicode@2.0.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/iarna/has-unicode</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/iarna/has-unicode/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/iarna/has-unicode.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/object-assign@4.1.1">
+            <author>Sindre Sorhus</author>
+            <name>object-assign</name>
+            <version>4.1.1</version>
+            <description>
+                <![CDATA[ES2015 `Object.assign()` ponyfill]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">ac98134279149c7d6c170f324fa552537cc3dec5a6bbab19848b1e63c557f8646edcfe85ec5bbe24d0e85df9251256cb2529dcdc55101d57b8714e618fe05c52</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/object-assign@4.1.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/sindresorhus/object-assign#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/sindresorhus/object-assign/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/sindresorhus/object-assign.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/signal-exit@3.0.7">
+            <author>Ben Coe</author>
+            <name>signal-exit</name>
+            <version>3.0.7</version>
+            <description>
+                <![CDATA[when you want to fire an event no matter how a process exits.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">c270f6644fa5f923c2feea12d2f5de13d2f5fb4c2e68ca8a95fcfd00c528dfc26cc8b48159215c1d1d51ae2eb62d9735daf2ebd606f78e5ee2c10860c2901b19</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/signal-exit@3.0.7</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/tapjs/signal-exit</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/tapjs/signal-exit/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/tapjs/signal-exit.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/string-width@4.2.3">
+            <author>Sindre Sorhus</author>
+            <name>string-width</name>
+            <version>4.2.3</version>
+            <description>
+                <![CDATA[Get the visual width of a string - the number of columns required to display it]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">c0ac90450a63274b08a7ad84ad265d1ac8cc256b1aa79a1136284786ee86ec954effd8c807a5327af2feb57b8eaab9e0f23fdcc4a4d6c96530bd24eb8a2673fe</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/string-width@4.2.3</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/sindresorhus/string-width#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/sindresorhus/string-width/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/sindresorhus/string-width.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/emoji-regex@8.0.0">
+            <author>Mathias Bynens</author>
+            <name>emoji-regex</name>
+            <version>8.0.0</version>
+            <description>
+                <![CDATA[A regular expression to match all Emoji-only symbols as per the Unicode Standard.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">2f5f03689b17494936fb8da9bfc98bb398c94f686a164144e23db5c0e9a06d4aac67684bef636c514efce60f515e0a37b3464d815978d93887a7766d3affd5ca</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/emoji-regex@8.0.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://mths.be/emoji-regex</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/mathiasbynens/emoji-regex/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/mathiasbynens/emoji-regex.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/is-fullwidth-code-point@3.0.0">
+            <author>Sindre Sorhus</author>
+            <name>is-fullwidth-code-point</name>
+            <version>3.0.0</version>
+            <description>
+                <![CDATA[Check if the character represented by a given Unicode code point is fullwidth]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">cf29a6e7ebbeb02b125b20fda8d69e8d5dc316f84229c94a762cd868952e1c0f3744b8dbee74ae1a775d0871afd2193e298ec130096c59e2b851e83a115e9742</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/is-fullwidth-code-point@3.0.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/sindresorhus/is-fullwidth-code-point#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/sindresorhus/is-fullwidth-code-point/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/sindresorhus/is-fullwidth-code-point.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/strip-ansi@6.0.1">
+            <author>Sindre Sorhus</author>
+            <name>strip-ansi</name>
+            <version>6.0.1</version>
+            <description>
+                <![CDATA[Strip ANSI escape codes from a string]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">637f153d21dcaa416b0a916743dbee4979aabaebf9a1738aa46793e9a1abaf7a3719cf409556ba2417d448e0a76f1186645fbfd28a08ecaacfb944b3b54754e4</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/strip-ansi@6.0.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/chalk/strip-ansi#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/chalk/strip-ansi/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/chalk/strip-ansi.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/ansi-regex@5.0.1">
+            <author>Sindre Sorhus</author>
+            <name>ansi-regex</name>
+            <version>5.0.1</version>
+            <description>
+                <![CDATA[Regular expression for matching ANSI escape codes]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">aae2505e54d25062f62c7f52517a3c570b18e2ca1a9e1828e8b3529bce04d4b05c13cb373b4c29762473c91f73fd9649325316bf7eea38e6fda5d26531410a15</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/ansi-regex@5.0.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/chalk/ansi-regex#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/chalk/ansi-regex/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/chalk/ansi-regex.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/wide-align@1.1.5">
+            <author>Rebecca Turner</author>
+            <name>wide-align</name>
+            <version>1.1.5</version>
+            <description>
+                <![CDATA[A wide-character aware text alignment function for use on the console or with fixed width fonts.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">78330e45868f359e2c408bae60f0c7750bdfe20c8217dac4115ff23f119fc0f911a1dc048223145174f1fdd7b1f8c7b4c31c79dd2f8d8141da3fbcb73069439a</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/wide-align@1.1.5</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/iarna/wide-align#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/iarna/wide-align/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/iarna/wide-align.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/set-blocking@2.0.0">
+            <author>Ben Coe</author>
+            <name>set-blocking</name>
+            <version>2.0.0</version>
+            <description>
+                <![CDATA[set blocking stdio and stderr ensuring that terminal output does not truncate]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">2a22814bc0275861322f3a1f15f9af2b0a5d3f3aa2cb5e8bbd07cadf2bff7d51fb063d77ff097725247527eadf81113dabbc5424ae2abe04bcada48e78b51e87</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/set-blocking@2.0.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/yargs/set-blocking#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/yargs/set-blocking/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/yargs/set-blocking.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/rimraf@3.0.2">
+            <author>Isaac Z. Schlueter</author>
+            <name>rimraf</name>
+            <version>3.0.2</version>
+            <description>
+                <![CDATA[A deep deletion module for node (like `rm -rf`)]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">25990931990018514f3f662a5d95cf6cc94c060b31cc4f082ece253085ffda8d0bf54070f4efd8de8eb0170fe2f582daa5c5095b0a9b8b791dc483dd0bad9320</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/rimraf@3.0.2</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/isaacs/rimraf#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/isaacs/rimraf/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/isaacs/rimraf.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/glob@7.1.7">
+            <author>Isaac Z. Schlueter</author>
+            <name>glob</name>
+            <version>7.1.7</version>
+            <description>
+                <![CDATA[a little globber]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">3af0fd10dccf2db7a010d9d83f95147c9222ad3838f97c0c5866907d04d8d097a7c4dbef20a3f7537fed01048f22efe51f15d84999a95e55077aa00874acc12d</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/glob@7.1.7</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/isaacs/node-glob#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/isaacs/node-glob/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/isaacs/node-glob.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/fs.realpath@1.0.0">
+            <author>Isaac Z. Schlueter</author>
+            <name>fs.realpath</name>
+            <version>1.0.0</version>
+            <description>
+                <![CDATA[Use node's fs.realpath, but fall back to the JS implementation if the native one fails]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">38ed291f694ae9ad2166701d6aee48b731cf23aa5496f23b8cc567c54411b70e28c05db093c94e49a6ed1830933f81a0ae0d8c6c69d63bd5fc2b5b78f9f18c0f</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/fs.realpath@1.0.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/isaacs/fs.realpath#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/isaacs/fs.realpath/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/isaacs/fs.realpath.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/inflight@1.0.6">
+            <author>Isaac Z. Schlueter</author>
+            <name>inflight</name>
+            <version>1.0.6</version>
+            <description>
+                <![CDATA[Add callbacks to requests in flight to avoid async duplication]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">93dd88fdbd3cab8c2f16c71708bbea7ec1c2ae3ac5ef2897b10b8856f544ecdf365b7f9aaa9cee51d05b7e159ccbf159477ff82207e532028b3acbcf0eb18224</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/inflight@1.0.6</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/isaacs/inflight</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/isaacs/inflight/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/npm/inflight.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/once@1.4.0">
+            <author>Isaac Z. Schlueter</author>
+            <name>once</name>
+            <version>1.4.0</version>
+            <description>
+                <![CDATA[Run a function exactly one time]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">94d689808fb643951140191c7042874d038f697754c67659125413658d0c15402e684a9ed44f8dcaf81dcff688c8d8ba67d3333b976fd47f27e7cfc610ba77fb</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/once@1.4.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/isaacs/once#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/isaacs/once/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/isaacs/once.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/wrappy@1.0.2">
+            <author>Isaac Z. Schlueter</author>
+            <name>wrappy</name>
+            <version>1.0.2</version>
+            <description>
+                <![CDATA[Callback wrapping utility]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">9784a9fc346c7a8afdc0be84bd5dbe4ee427eb774c90f8d9feca7d5e48214c46d5f4a94f4b5c54b19deeeff2103b8c31b5c141e1b82940f45c477402bdeccf71</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/wrappy@1.0.2</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/npm/wrappy</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/npm/wrappy/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/npm/wrappy.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/minimatch@3.1.2">
+            <author>Isaac Z. Schlueter</author>
+            <name>minimatch</name>
+            <version>3.1.2</version>
+            <description>
+                <![CDATA[a glob matcher in javascript]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">27ba7ade1462023c35343130c355bb8b7efe07222b3963b95d0400cd9dd539c2f43cdc9bc297e657f374e73140cf043d512c84717eaddd43be2b96aa0503881f</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/minimatch@3.1.2</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/isaacs/minimatch#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/isaacs/minimatch/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/isaacs/minimatch.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/brace-expansion@1.1.11">
+            <author>Julian Gruber</author>
+            <name>brace-expansion</name>
+            <version>1.1.11</version>
+            <description>
+                <![CDATA[Brace expansion as known from sh/bash]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">882b8f1c3160ac75fb1f6bc423fe71a73d3bcd21c1d344e9ba0aa1998b5598c3bae75f260ae44ca0e60595d101974835f3bb9fa3375a1e058a71815beb5a8688</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/brace-expansion@1.1.11</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/juliangruber/brace-expansion</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/juliangruber/brace-expansion/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/juliangruber/brace-expansion.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/balanced-match@1.0.2">
+            <author>Julian Gruber</author>
+            <name>balanced-match</name>
+            <version>1.0.2</version>
+            <description>
+                <![CDATA[Match balanced character pairs, like "{" and "}"]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">de849e50ed13315ebb84dd4099b5ec2b8c9aa94eed8e21e56f144364ea47d0a5bdf82797e1b440697d009f1b74b71d8cae94695b041a3f02252121098585393f</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/balanced-match@1.0.2</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/juliangruber/balanced-match</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/juliangruber/balanced-match/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/juliangruber/balanced-match.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/concat-map@0.0.1">
+            <author>James Halliday</author>
+            <name>concat-map</name>
+            <version>0.0.1</version>
+            <description>
+                <![CDATA[concatenative mapdashery]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">fd2aefe1db30c903417e8846a73f68e986f71b3dd2ad40ea047e6b4ee84647b6a1b656d82a7571c366c214c4658da03b1171da5d9f30b07768745bdb9212a6aa</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/concat-map@0.0.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/substack/node-concat-map#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/substack/node-concat-map/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/substack/node-concat-map.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/path-is-absolute@1.0.1">
+            <author>Sindre Sorhus</author>
+            <name>path-is-absolute</name>
+            <version>1.0.1</version>
+            <description>
+                <![CDATA[Node.js 0.12 path.isAbsolute() ponyfill]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">0156f0dd42767bd6eaeb8bd2692f409b47e37b53daf296c6a934ec9977da2223299ebe4394385f24eb8b8fd49ff7964f5430147ab0df124f3c30f98f7bb50242</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/path-is-absolute@1.0.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/sindresorhus/path-is-absolute#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/sindresorhus/path-is-absolute/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/sindresorhus/path-is-absolute.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/semver@7.3.8">
+            <author>GitHub Inc.</author>
+            <name>semver</name>
+            <version>7.3.8</version>
+            <description>
+                <![CDATA[The semantic version parser used by npm.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">341d5cb462f9ae51eb3c9b450d5215cd3c90ca530bbbd37d548080e87485268f0c086553316ea07e989cc0a9a62bf7408d33abaaee65eb72493a90d2ac08acdc</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/semver@7.3.8</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/npm/node-semver#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/npm/node-semver/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/npm/node-semver.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/lru-cache@6.0.0">
+            <author>Isaac Z. Schlueter</author>
+            <name>lru-cache</name>
+            <version>6.0.0</version>
+            <description>
+                <![CDATA[A cache object that deletes the least-recently-used items.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">268e9d274e029928eece7c09492de951e5a677f1f47df4e59175e0c198be7aad540a6a90c0287e78bb183980b063df758b615a878875044302c78a938466ec88</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/lru-cache@6.0.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/isaacs/node-lru-cache#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/isaacs/node-lru-cache/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/isaacs/node-lru-cache.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/yallist@4.0.0">
+            <author>Isaac Z. Schlueter</author>
+            <name>yallist</name>
+            <version>4.0.0</version>
+            <description>
+                <![CDATA[Yet Another Linked List]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">df074689d672ab93c1d3ce172c44b94e9392440df08d7025216321ba6da445cbffe354a7d9e990d1dc9c416e2e6572de8f02af83a12cbdb76554bf8560472dec</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/yallist@4.0.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/isaacs/yallist#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/isaacs/yallist/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/isaacs/yallist.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/tar@6.1.13">
+            <author>GitHub Inc.</author>
+            <name>tar</name>
+            <version>6.1.13</version>
+            <description>
+                <![CDATA[tar for node]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">8dd20120de8b4c87b68eacdacbfdafb582e50476b7245e36a2dde1d5d5bc4343da006e2ff2b9b472fa5578fb5abb90ba38a5c619c80ef6ad8030d496c622ea2b</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/tar@6.1.13</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/npm/node-tar#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/npm/node-tar/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/npm/node-tar.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/chownr@2.0.0">
+            <author>Isaac Z. Schlueter</author>
+            <name>chownr</name>
+            <version>2.0.0</version>
+            <description>
+                <![CDATA[like `chown -R`]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">6c8a26b43179286a5da2090b77d56ca6f17393d29fa72c86952f18155665ed318f0472f9b2720e9f17ac8705603ed790f5be04c9d97ea556c8c84d4372f09681</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/chownr@2.0.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/isaacs/chownr#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/isaacs/chownr/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/isaacs/chownr.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/fs-minipass@2.1.0">
+            <author>Isaac Z. Schlueter</author>
+            <name>fs-minipass</name>
+            <version>2.1.0</version>
+            <description>
+                <![CDATA[fs read and write streams based on minipass]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">57f26038b1424be47a55cab4b250ae69e58474d0b7a2e0e524c348b1a707d95b402e2bbd995e0b3eb1dce5c0e5f24e5ac3a27c8f08165a9893a39458866233be</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/fs-minipass@2.1.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/npm/fs-minipass#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/npm/fs-minipass/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/npm/fs-minipass.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/minipass@3.3.6">
+            <author>Isaac Z. Schlueter</author>
+            <name>minipass</name>
+            <version>3.3.6</version>
+            <description>
+                <![CDATA[minimal implementation of a PassThrough stream]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">83652e8768c42a886dfb3bceeaf26a5e66297e53eacd1053f93876874d432a1e73ef06d8fc067680243bf1c3fbd18a073f215d637d18055e56c602ce1303b293</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/minipass@3.3.6</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/isaacs/minipass#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/isaacs/minipass/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/isaacs/minipass.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/minipass@4.0.0">
+            <author>Isaac Z. Schlueter</author>
+            <name>minipass</name>
+            <version>4.0.0</version>
+            <description>
+                <![CDATA[minimal implementation of a PassThrough stream]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">83652e8768c42a886dfb3bceeaf26a5e66297e53eacd1053f93876874d432a1e73ef06d8fc067680243bf1c3fbd18a073f215d637d18055e56c602ce1303b293</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/minipass@4.0.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/isaacs/minipass#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/isaacs/minipass/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/isaacs/minipass.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/minizlib@2.1.2">
+            <author>Isaac Z. Schlueter</author>
+            <name>minizlib</name>
+            <version>2.1.2</version>
+            <description>
+                <![CDATA[A small fast zlib stream built on [minipass](http://npm.im/minipass) and Node.js's zlib binding.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">6c0c6c47c0557e3eb40d65c7137bb7d281f37e5e06ee48644ae3d6faabe977b8c54479bb74bc4e8d493510700227f8712d8f29846274621607668ee38a5ed076</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/minizlib@2.1.2</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/isaacs/minizlib#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/isaacs/minizlib/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/isaacs/minizlib.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/mkdirp@1.0.4">
+            <name>mkdirp</name>
+            <version>1.0.4</version>
+            <description>
+                <![CDATA[Recursively mkdir, like `mkdir -p`]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">bd5a95650c9fdd62f1d9285dd2a27dc6ebea800c8a3cb022a884c4b6a5b4a08523ce8dcf78f0dde9f5bd885cf7d1e7fb62ca7fa225aa6e1b33786596d93e86cf</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/mkdirp@1.0.4</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/isaacs/node-mkdirp#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/isaacs/node-mkdirp/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/isaacs/node-mkdirp.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/node-addon-api@5.1.0">
+            <name>node-addon-api</name>
+            <version>5.1.0</version>
+            <description>
+                <![CDATA[Node.js API (Node-API)]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">7a1d0681f124a67a160eaf9563c3b2bd8845133064ea32186d129d225c938805c8549f0fc8168a6f4ae9ee80eda1d75b7681d686af30c2bf9767cd45d6ba4d74</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/node-addon-api@5.1.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/nodejs/node-addon-api</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/nodejs/node-addon-api/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/nodejs/node-addon-api.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/jose@4.11.2">
+            <author>Filip Skokan</author>
+            <name>jose</name>
+            <version>4.11.2</version>
+            <description>
+                <![CDATA['JSON Web Almost Everything' - JWA, JWS, JWE, JWT, JWK, JWKS for Node.js, Browser, Cloudflare Workers, Deno, Bun, and other Web-interoperable runtimes]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">9e38f454bd93b08c42b60ce13bef514686c1bf0b38a18c8233c4e9be8510c25fcc6c833734525147df9eeb1d2c4b9c5768fd6de8e08191a04c13df0e57dcd4e4</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/jose@4.11.2</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/panva/jose</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/panva/jose/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/panva/jose.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/jwt-decode@3.1.2">
+            <author>Jose F. Romaniello</author>
+            <name>jwt-decode</name>
+            <version>3.1.2</version>
+            <description>
+                <![CDATA[Decode JWT tokens, mostly useful for browser applications.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">51fa5613f5599f488fe7477c733f4dad92ccf6549685c27ed06b7f9e6e1bcbcf142fe2754a228df3fe5d9233266c4cf02f60807beebb1ac7a009b20ab5ba7be4</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/jwt-decode@3.1.2</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/auth0/jwt-decode#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/auth0/jwt-decode/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/auth0/jwt-decode.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/next@13.1.1">
+            <name>next</name>
+            <version>13.1.1</version>
+            <description>
+                <![CDATA[The React Framework]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">47978101a21add7ecb25e62fbf56cc7469c0545e1f553a048e29bb3247e571e14fb80358dd8caf1715de7bf03e69cad263060fbcebdfedfeaffc133fe3c79ae7</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/next@13.1.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://nextjs.org</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/vercel/next.js/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/vercel/next.js.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/%40next/env@13.1.1">
+            <author>Next.js Team</author>
+            <group>@next</group>
+            <name>env</name>
+            <version>13.1.1</version>
+            <description>
+                <![CDATA[Next.js dotenv file loading]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">bc53325ed3e348088e5cecb03288f17ca22a137556379442031fad4f7012de970a8cc2c54c2245516b0abfc842fbced9d45e16debebca93c0315920599de5793</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/%40next/env@13.1.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/vercel/next.js#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/vercel/next.js/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/vercel/next.js.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/%40swc/helpers@0.4.14">
+            <author>강동윤</author>
+            <group>@swc</group>
+            <name>helpers</name>
+            <version>0.4.14</version>
+            <description>
+                <![CDATA[External helpers for the swc project.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">e02ee75ff76fa7307bcdae1097d2bcd712b71cfc42a47320c13655c9ffbd250e9551b9fd8e365537bfcd91dcff520cecd824a3aa72ff50f5eba2254154751653</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/%40swc/helpers@0.4.14</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://swc.rs</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/swc-project/swc/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/swc-project/swc.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/tslib@2.4.1">
+            <author>Microsoft Corp.</author>
+            <name>tslib</name>
+            <version>2.4.1</version>
+            <description>
+                <![CDATA[Runtime library for TypeScript helper functions]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">b46cb2e1d02344813023b073b01d25ca75a03a97ea8d476af755d70252160f63b02811fba0297f1991bf1d3e01387ad394f30e01294c43bbdec93aa999172b34</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>0BSD</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/tslib@2.4.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://www.typescriptlang.org/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/Microsoft/TypeScript/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/Microsoft/tslib.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/caniuse-lite@1.0.30001442">
+            <author>Ben Briggs</author>
+            <name>caniuse-lite</name>
+            <version>1.0.30001442</version>
+            <description>
+                <![CDATA[A smaller version of caniuse-db, with only the essentials!]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">db7f66d373eacb4870c583d8479270388c5125f2d35ad95ef4557cce8b1f579a4783eff9d6e0f89f171494cf3e9965867f02adb7c9493479c3ddc5b0f5567aa3</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>CC-BY-4.0</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/caniuse-lite@1.0.30001442</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/browserslist/caniuse-lite#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/browserslist/caniuse-lite/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/browserslist/caniuse-lite.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/postcss@8.4.14">
+            <author>Andrey Sitnik</author>
+            <name>postcss</name>
+            <version>8.4.14</version>
+            <description>
+                <![CDATA[Tool for transforming styles with JS plugins]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">b4feeefd29ff755c4ad8d9ebb88e07f411bec7e5b1cfaa1e675709f0fe86fcf658d082a4e24ffadd30ec41fda442adfeaa825e2e6da420150d9597b7ce06f866</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/postcss@8.4.14</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://postcss.org/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/postcss/postcss/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/postcss/postcss.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/nanoid@3.3.4">
+            <author>Andrey Sitnik</author>
+            <name>nanoid</name>
+            <version>3.3.4</version>
+            <description>
+                <![CDATA[A tiny (116 bytes), secure URL-friendly unique string ID generator]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">32a064421fce1d34b67a0a2f46d2e4e39c04c8d5f017e728903fb560f7fdbb955f26245d0224700767eba17e42a3d461db4c6ce2c88d3e6f2768da2d483e9107</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/nanoid@3.3.4</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/ai/nanoid#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/ai/nanoid/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/ai/nanoid.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/picocolors@1.0.0">
+            <author>Alexey Raspopov</author>
+            <name>picocolors</name>
+            <version>1.0.0</version>
+            <description>
+                <![CDATA[The tiniest and the fastest library for terminal output formatting with ANSI colors]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">d5fca0ae84cb947bbaeb38b6e95a130eff324609b415c71e72cb2da3e321b19d03fc3196dac9bc13c0235bb354e5555346de46c5b799e6a06e26bf87c8b6248d</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/picocolors@1.0.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/alexeyraspopov/picocolors#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/alexeyraspopov/picocolors/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/alexeyraspopov/picocolors.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/source-map-js@1.0.2">
+            <author>Valentin 7rulnik Semirulnik</author>
+            <name>source-map-js</name>
+            <version>1.0.2</version>
+            <description>
+                <![CDATA[Generates and consumes source maps]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">4745ef549f56bac2e2a930848860a620208ca65702908c30475d663920fd091e6ef885d8762b1e784b970950234b9e33ab090b70f367994e0e789ead52b5a10f</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>BSD-3-Clause</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/source-map-js@1.0.2</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/7rulnik/source-map-js</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/7rulnik/source-map-js/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/7rulnik/source-map-js.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/styled-jsx@5.1.1">
+            <name>styled-jsx</name>
+            <version>5.1.1</version>
+            <description>
+                <![CDATA[Full CSS support for JSX without compromises]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">a56eee0b597898167cba06e266b708b2222f571d549937f0ed4902dd49b6b667d4abd06193c222c8420f97a17c6a01e08f392eea3d3140465b7c0e6e4a049a0b</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/styled-jsx@5.1.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/vercel/styled-jsx#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/vercel/styled-jsx/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/vercel/styled-jsx.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/client-only@0.0.1">
+            <name>client-only</name>
+            <version>0.0.1</version>
+            <description>
+                <![CDATA[This is a marker package to indicate that a module can only be used in Client Components.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">215dcebb48d233366b777a59e3c9cb913f4303b020d699cfcda8908695bb73745b72aab3bf3cd5bbe2fc81fa8ca7ff08336310b528aa682c6badc7eef08f2b30</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/client-only@0.0.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://reactjs.org/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/facebook/react/issues</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/react@18.2.0">
+            <name>react</name>
+            <version>18.2.0</version>
+            <description>
+                <![CDATA[React is a JavaScript library for building user interfaces.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">ff722331d6f62fd41b05d5a25b97b73f6fe7a70301694f661c24825333659f464261b71f4ec19b4c9ad4fe419e99d1f6216981da2a19fb3931b66aba834f5f19</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/react@18.2.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://reactjs.org/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/facebook/react/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/facebook/react.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/loose-envify@1.4.0">
+            <author>Andres Suarez</author>
+            <name>loose-envify</name>
+            <version>1.4.0</version>
+            <description>
+                <![CDATA[Fast (and loose) selective `process.env` replacer using js-tokens instead of an AST]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">972bb13c6aff59f86b95e9b608bfd472751cd7372a280226043cee918ed8e45ff242235d928ebe7d12debe5c351e03324b0edfeb5d54218e34f04b71452a0add</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/loose-envify@1.4.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/zertosh/loose-envify</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/zertosh/loose-envify/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git://github.com/zertosh/loose-envify.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/js-tokens@4.0.0">
+            <author>Simon Lydell</author>
+            <name>js-tokens</name>
+            <version>4.0.0</version>
+            <description>
+                <![CDATA[A regex that tokenizes JavaScript.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">45d2547e5704ddc5332a232a420b02bb4e853eef5474824ed1b7986cf84737893a6a9809b627dca02b53f5b7313a9601b690f690233a49bce0e026aeb16fcf29</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/js-tokens@4.0.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/lydell/js-tokens#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/lydell/js-tokens/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/lydell/js-tokens.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/react-dom@18.2.0">
+            <name>react-dom</name>
+            <version>18.2.0</version>
+            <description>
+                <![CDATA[React package for working with the DOM.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">e88313ae2526bec8c752336d103b9d65fb83414a165d5c4a1e194419293cd67e18152fabfca97df705e2c25557b4f06d25e9e8cefd8ffa1c43b30f5e03b5e8ea</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/react-dom@18.2.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://reactjs.org/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/facebook/react/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/facebook/react.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/scheduler@0.23.0">
+            <name>scheduler</name>
+            <version>0.23.0</version>
+            <description>
+                <![CDATA[Cooperative scheduler for the browser environment.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">0adb93866807360ef32195805e2dc0b322330379f8c71eda3728f00b654995d3b62cc5438452beeb7c46aaae82b091f8ad302debf33e3781a16620d83f1f5e53</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/scheduler@0.23.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://reactjs.org/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/facebook/react/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/facebook/react.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/react-hook-form@7.41.5">
+            <name>react-hook-form</name>
+            <version>7.41.5</version>
+            <description>
+                <![CDATA[Performant, flexible and extensible forms library for React Hooks]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">0c02a3489ed7f5fd7aa10acfdd35b6fde0fd37a1ce82b9886a13f82ce745a6111655f199d8bba515de9fe8043f612ff4731ff9a1ce23f1ad4f5f1b9abab5a9fd</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/react-hook-form@7.41.5</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://www.react-hook-form.com</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/react-hook-form/react-hook-form/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/react-hook-form/react-hook-form.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/react-spinners@0.13.7">
+            <author>David Hu</author>
+            <name>react-spinners</name>
+            <version>0.13.7</version>
+            <description>
+                <![CDATA[A collection of react loading spinners]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">9916a69f9e9b7f159b19c69c89fe514f751b7896978b602db63b4fc129a89aebf621cc63a5b7c44c2cdd4ef690a4d0e4d04df710d26c4adb1078a01916e25ca4</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/react-spinners@0.13.7</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://www.davidhu.io/react-spinners/</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/davidhu2000/react-spinners/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/davidhu2000/react-spinners.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/superjson@1.9.1">
+            <author>Simon Knott</author>
+            <name>superjson</name>
+            <version>1.9.1</version>
+            <description>
+                <![CDATA[<p align="center">   <img alt="superjson" src="./docs/superjson.png" width="300" /> </p>]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">a13dc70369cf2a5535fb9b5a160cff1c3cbe184698f825846cbcda449543e2067bccc5550b8183345760bc066debf56e224e83d91ed1b4f022087c2677394c9a</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/superjson@1.9.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/blitz-js/superjson#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/blitz-js/superjson/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/blitz-js/superjson.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/copy-anything@3.0.3">
+            <author>Luca Ban - Mesqueeb</author>
+            <name>copy-anything</name>
+            <version>3.0.3</version>
+            <description>
+                <![CDATA[An optimised way to copy'ing an object. A small and simple integration]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">7e95b65bf06a133a8fa76f504be330c1f8ac1c2419b6276e4defe6f22745a34c5bb62f5f219d9656102c0afe20805547dc0802915769a0e0ad402ea006b7618f</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/copy-anything@3.0.3</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/mesqueeb/copy-anything#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/mesqueeb/copy-anything/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/mesqueeb/copy-anything.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/is-what@4.1.8">
+            <author>Luca Ban - Mesqueeb</author>
+            <name>is-what</name>
+            <version>4.1.8</version>
+            <description>
+                <![CDATA[JS type check (TypeScript supported) functions like `isPlainObject() isArray()` etc. A simple & small integration.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">caaf2031aa39ba990fa06114f4bb01d8ff8adcab7c4377d01421b234258e027240333117555f5dad86f44d7af8d934e588b2e128806fba58005e0b4b2e7c3318</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/is-what@4.1.8</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/mesqueeb/is-what#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/mesqueeb/is-what/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/mesqueeb/is-what.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/zod@3.20.2">
+            <author>Colin McDonnell</author>
+            <name>zod</name>
+            <version>3.20.2</version>
+            <description>
+                <![CDATA[TypeScript-first schema declaration and validation library with static type inference]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">d4cccd41d02f3bee781fe11a2b9629c84cb44fe123a3fed82c74bddc6dd19d85a1e606a8b461f019e37f64eebceea103536cb809d4ad4185d51c882b525e5455</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/zod@3.20.2</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/colinhacks/zod</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/colinhacks/zod/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/colinhacks/zod.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/%40next/swc-linux-x64-gnu@13.1.1">
+            <group>@next</group>
+            <name>swc-linux-x64-gnu</name>
+            <version>13.1.1</version>
+            <description>
+                <![CDATA[This is the **x86_64-unknown-linux-gnu** binary for `@next/swc`]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">9e78ee06b6f3bea68e25a57e5e04fcffe9665eb4823add586199ff8ab6c36f67d1d90a6b2fa43b589360c2c64dc622d27cb76ffb64491867a0071f6c2c113318</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/%40next/swc-linux-x64-gnu@13.1.1</purl>
+        </component>
+        <component type="library" bom-ref="pkg:npm/%40next/swc-linux-x64-musl@13.1.1">
+            <group>@next</group>
+            <name>swc-linux-x64-musl</name>
+            <version>13.1.1</version>
+            <description>
+                <![CDATA[This is the **linux-x64-musl** binary for `@next/swc`]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">08cf719c040d219f337ff8a06c84ff8b7c566d0658685dfdec7f89ae817954c38252578495a31d40b2f9ae226697cc147cfa0ddddb5f9f6b38a5e4abddacf3fe</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>MIT</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/%40next/swc-linux-x64-musl@13.1.1</purl>
+        </component>
+        <component type="library" bom-ref="pkg:npm/%40prisma/engines@4.8.1">
+            <author>Tim Suchanek</author>
+            <group>@prisma</group>
+            <name>engines</name>
+            <version>4.8.1</version>
+            <description>
+                <![CDATA[This package is intended for Prisma's internal use]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">f77b5cb633577084be8bf7b9e7620eeadab0d7bb17f258a2beff165fd943302a4411eddc8be9d3f45fb5a07b4069faabb972dea4a17cd22fc3db4326f844a53b</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/%40prisma/engines@4.8.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/prisma/prisma#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/prisma/prisma/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/prisma/prisma.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/prisma@4.8.1">
+            <author>Tim Suchanek</author>
+            <name>prisma</name>
+            <version>4.8.1</version>
+            <description>
+                <![CDATA[Prisma is an open-source database toolkit. It includes a JavaScript/TypeScript ORM for Node.js, migrations and a modern GUI to view and edit the data in your database. You can use Prisma in new projects or add it to an existing one.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">64c2e74a3c2e9487987da5353bafcb17a3c4273c4de696abe707b2931332912f59e9aadafe3efa247dd8a36007ddb8096cf37867a35e08af6ce5f0e4cdfdf772</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/prisma@4.8.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://www.prisma.io</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/prisma/prisma/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/prisma/prisma.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+    </components>
+    <dependencies>
+        <dependency ref="pkg:npm/%40hookform/resolvers@2.9.10"/>
+        <dependency ref="pkg:npm/%40prisma/engines-version@4.8.0-61.d6e67a83f971b175a593ccc12e15c4a757f93ffe"/>
+        <dependency ref="pkg:npm/%40prisma/client@4.8.1">
+            <dependency ref="pkg:npm/%40prisma/engines-version@4.8.0-61.d6e67a83f971b175a593ccc12e15c4a757f93ffe"/>
+        </dependency>
+        <dependency ref="pkg:npm/use-sync-external-store@1.2.0"/>
+        <dependency ref="pkg:npm/%40tanstack/query-core@4.22.0"/>
+        <dependency ref="pkg:npm/%40tanstack/react-query@4.22.0">
+            <dependency ref="pkg:npm/use-sync-external-store@1.2.0"/>
+            <dependency ref="pkg:npm/%40tanstack/query-core@4.22.0"/>
+        </dependency>
+        <dependency ref="pkg:npm/%40trpc/client@10.8.1"/>
+        <dependency ref="pkg:npm/react-ssr-prepass@1.5.0"/>
+        <dependency ref="pkg:npm/%40trpc/next@10.8.1">
+            <dependency ref="pkg:npm/react-ssr-prepass@1.5.0"/>
+        </dependency>
+        <dependency ref="pkg:npm/%40trpc/react-query@10.8.1"/>
+        <dependency ref="pkg:npm/%40trpc/server@10.8.1"/>
+        <dependency ref="pkg:npm/detect-libc@2.0.1"/>
+        <dependency ref="pkg:npm/ms@2.1.2"/>
+        <dependency ref="pkg:npm/debug@4.3.4">
+            <dependency ref="pkg:npm/ms@2.1.2"/>
+        </dependency>
+        <dependency ref="pkg:npm/agent-base@6.0.2">
+            <dependency ref="pkg:npm/debug@4.3.4"/>
+        </dependency>
+        <dependency ref="pkg:npm/https-proxy-agent@5.0.1">
+            <dependency ref="pkg:npm/agent-base@6.0.2"/>
+        </dependency>
+        <dependency ref="pkg:npm/semver@6.3.0"/>
+        <dependency ref="pkg:npm/make-dir@3.1.0">
+            <dependency ref="pkg:npm/semver@6.3.0"/>
+        </dependency>
+        <dependency ref="pkg:npm/tr46@0.0.3"/>
+        <dependency ref="pkg:npm/webidl-conversions@3.0.1"/>
+        <dependency ref="pkg:npm/whatwg-url@5.0.0">
+            <dependency ref="pkg:npm/tr46@0.0.3"/>
+            <dependency ref="pkg:npm/webidl-conversions@3.0.1"/>
+        </dependency>
+        <dependency ref="pkg:npm/node-fetch@2.6.8">
+            <dependency ref="pkg:npm/whatwg-url@5.0.0"/>
+        </dependency>
+        <dependency ref="pkg:npm/abbrev@1.1.1"/>
+        <dependency ref="pkg:npm/nopt@5.0.0">
+            <dependency ref="pkg:npm/abbrev@1.1.1"/>
+        </dependency>
+        <dependency ref="pkg:npm/delegates@1.0.0"/>
+        <dependency ref="pkg:npm/inherits@2.0.4"/>
+        <dependency ref="pkg:npm/safe-buffer@5.2.1"/>
+        <dependency ref="pkg:npm/string_decoder@1.3.0">
+            <dependency ref="pkg:npm/safe-buffer@5.2.1"/>
+        </dependency>
+        <dependency ref="pkg:npm/util-deprecate@1.0.2"/>
+        <dependency ref="pkg:npm/readable-stream@3.6.0">
+            <dependency ref="pkg:npm/inherits@2.0.4"/>
+            <dependency ref="pkg:npm/string_decoder@1.3.0"/>
+            <dependency ref="pkg:npm/util-deprecate@1.0.2"/>
+        </dependency>
+        <dependency ref="pkg:npm/are-we-there-yet@2.0.0">
+            <dependency ref="pkg:npm/delegates@1.0.0"/>
+            <dependency ref="pkg:npm/readable-stream@3.6.0"/>
+        </dependency>
+        <dependency ref="pkg:npm/console-control-strings@1.1.0"/>
+        <dependency ref="pkg:npm/aproba@2.0.0"/>
+        <dependency ref="pkg:npm/color-support@1.1.3"/>
+        <dependency ref="pkg:npm/has-unicode@2.0.1"/>
+        <dependency ref="pkg:npm/object-assign@4.1.1"/>
+        <dependency ref="pkg:npm/signal-exit@3.0.7"/>
+        <dependency ref="pkg:npm/emoji-regex@8.0.0"/>
+        <dependency ref="pkg:npm/is-fullwidth-code-point@3.0.0"/>
+        <dependency ref="pkg:npm/ansi-regex@5.0.1"/>
+        <dependency ref="pkg:npm/strip-ansi@6.0.1">
+            <dependency ref="pkg:npm/ansi-regex@5.0.1"/>
+        </dependency>
+        <dependency ref="pkg:npm/string-width@4.2.3">
+            <dependency ref="pkg:npm/emoji-regex@8.0.0"/>
+            <dependency ref="pkg:npm/is-fullwidth-code-point@3.0.0"/>
+            <dependency ref="pkg:npm/strip-ansi@6.0.1"/>
+        </dependency>
+        <dependency ref="pkg:npm/wide-align@1.1.5"/>
+        <dependency ref="pkg:npm/gauge@3.0.2">
+            <dependency ref="pkg:npm/aproba@2.0.0"/>
+            <dependency ref="pkg:npm/color-support@1.1.3"/>
+            <dependency ref="pkg:npm/has-unicode@2.0.1"/>
+            <dependency ref="pkg:npm/object-assign@4.1.1"/>
+            <dependency ref="pkg:npm/signal-exit@3.0.7"/>
+            <dependency ref="pkg:npm/string-width@4.2.3"/>
+            <dependency ref="pkg:npm/wide-align@1.1.5"/>
+        </dependency>
+        <dependency ref="pkg:npm/set-blocking@2.0.0"/>
+        <dependency ref="pkg:npm/npmlog@5.0.1">
+            <dependency ref="pkg:npm/are-we-there-yet@2.0.0"/>
+            <dependency ref="pkg:npm/console-control-strings@1.1.0"/>
+            <dependency ref="pkg:npm/gauge@3.0.2"/>
+            <dependency ref="pkg:npm/set-blocking@2.0.0"/>
+        </dependency>
+        <dependency ref="pkg:npm/fs.realpath@1.0.0"/>
+        <dependency ref="pkg:npm/wrappy@1.0.2"/>
+        <dependency ref="pkg:npm/once@1.4.0">
+            <dependency ref="pkg:npm/wrappy@1.0.2"/>
+        </dependency>
+        <dependency ref="pkg:npm/inflight@1.0.6">
+            <dependency ref="pkg:npm/once@1.4.0"/>
+        </dependency>
+        <dependency ref="pkg:npm/balanced-match@1.0.2"/>
+        <dependency ref="pkg:npm/concat-map@0.0.1"/>
+        <dependency ref="pkg:npm/brace-expansion@1.1.11">
+            <dependency ref="pkg:npm/balanced-match@1.0.2"/>
+            <dependency ref="pkg:npm/concat-map@0.0.1"/>
+        </dependency>
+        <dependency ref="pkg:npm/minimatch@3.1.2">
+            <dependency ref="pkg:npm/brace-expansion@1.1.11"/>
+        </dependency>
+        <dependency ref="pkg:npm/path-is-absolute@1.0.1"/>
+        <dependency ref="pkg:npm/glob@7.1.7">
+            <dependency ref="pkg:npm/fs.realpath@1.0.0"/>
+            <dependency ref="pkg:npm/inflight@1.0.6"/>
+            <dependency ref="pkg:npm/minimatch@3.1.2"/>
+            <dependency ref="pkg:npm/path-is-absolute@1.0.1"/>
+        </dependency>
+        <dependency ref="pkg:npm/rimraf@3.0.2">
+            <dependency ref="pkg:npm/glob@7.1.7"/>
+        </dependency>
+        <dependency ref="pkg:npm/yallist@4.0.0"/>
+        <dependency ref="pkg:npm/lru-cache@6.0.0">
+            <dependency ref="pkg:npm/yallist@4.0.0"/>
+        </dependency>
+        <dependency ref="pkg:npm/semver@7.3.8">
+            <dependency ref="pkg:npm/lru-cache@6.0.0"/>
+        </dependency>
+        <dependency ref="pkg:npm/chownr@2.0.0"/>
+        <dependency ref="pkg:npm/minipass@3.3.6"/>
+        <dependency ref="pkg:npm/fs-minipass@2.1.0">
+            <dependency ref="pkg:npm/minipass@3.3.6"/>
+        </dependency>
+        <dependency ref="pkg:npm/minipass@4.0.0"/>
+        <dependency ref="pkg:npm/minizlib@2.1.2"/>
+        <dependency ref="pkg:npm/mkdirp@1.0.4"/>
+        <dependency ref="pkg:npm/tar@6.1.13">
+            <dependency ref="pkg:npm/chownr@2.0.0"/>
+            <dependency ref="pkg:npm/fs-minipass@2.1.0"/>
+            <dependency ref="pkg:npm/minipass@4.0.0"/>
+            <dependency ref="pkg:npm/minizlib@2.1.2"/>
+            <dependency ref="pkg:npm/mkdirp@1.0.4"/>
+        </dependency>
+        <dependency ref="pkg:npm/%40mapbox/node-pre-gyp@1.0.10">
+            <dependency ref="pkg:npm/detect-libc@2.0.1"/>
+            <dependency ref="pkg:npm/https-proxy-agent@5.0.1"/>
+            <dependency ref="pkg:npm/make-dir@3.1.0"/>
+            <dependency ref="pkg:npm/node-fetch@2.6.8"/>
+            <dependency ref="pkg:npm/nopt@5.0.0"/>
+            <dependency ref="pkg:npm/npmlog@5.0.1"/>
+            <dependency ref="pkg:npm/rimraf@3.0.2"/>
+            <dependency ref="pkg:npm/semver@7.3.8"/>
+            <dependency ref="pkg:npm/tar@6.1.13"/>
+        </dependency>
+        <dependency ref="pkg:npm/node-addon-api@5.1.0"/>
+        <dependency ref="pkg:npm/bcrypt@5.1.0">
+            <dependency ref="pkg:npm/%40mapbox/node-pre-gyp@1.0.10"/>
+            <dependency ref="pkg:npm/node-addon-api@5.1.0"/>
+        </dependency>
+        <dependency ref="pkg:npm/jose@4.11.2"/>
+        <dependency ref="pkg:npm/jwt-decode@3.1.2"/>
+        <dependency ref="pkg:npm/%40next/env@13.1.1"/>
+        <dependency ref="pkg:npm/tslib@2.4.1"/>
+        <dependency ref="pkg:npm/%40swc/helpers@0.4.14">
+            <dependency ref="pkg:npm/tslib@2.4.1"/>
+        </dependency>
+        <dependency ref="pkg:npm/caniuse-lite@1.0.30001442"/>
+        <dependency ref="pkg:npm/nanoid@3.3.4"/>
+        <dependency ref="pkg:npm/picocolors@1.0.0"/>
+        <dependency ref="pkg:npm/source-map-js@1.0.2"/>
+        <dependency ref="pkg:npm/postcss@8.4.14">
+            <dependency ref="pkg:npm/nanoid@3.3.4"/>
+            <dependency ref="pkg:npm/picocolors@1.0.0"/>
+            <dependency ref="pkg:npm/source-map-js@1.0.2"/>
+        </dependency>
+        <dependency ref="pkg:npm/client-only@0.0.1"/>
+        <dependency ref="pkg:npm/styled-jsx@5.1.1">
+            <dependency ref="pkg:npm/client-only@0.0.1"/>
+        </dependency>
+        <dependency ref="pkg:npm/next@13.1.1">
+            <dependency ref="pkg:npm/%40next/env@13.1.1"/>
+            <dependency ref="pkg:npm/%40swc/helpers@0.4.14"/>
+            <dependency ref="pkg:npm/caniuse-lite@1.0.30001442"/>
+            <dependency ref="pkg:npm/postcss@8.4.14"/>
+            <dependency ref="pkg:npm/styled-jsx@5.1.1"/>
+        </dependency>
+        <dependency ref="pkg:npm/js-tokens@4.0.0"/>
+        <dependency ref="pkg:npm/loose-envify@1.4.0">
+            <dependency ref="pkg:npm/js-tokens@4.0.0"/>
+        </dependency>
+        <dependency ref="pkg:npm/react@18.2.0">
+            <dependency ref="pkg:npm/loose-envify@1.4.0"/>
+        </dependency>
+        <dependency ref="pkg:npm/scheduler@0.23.0"/>
+        <dependency ref="pkg:npm/react-dom@18.2.0">
+            <dependency ref="pkg:npm/scheduler@0.23.0"/>
+        </dependency>
+        <dependency ref="pkg:npm/react-hook-form@7.41.5"/>
+        <dependency ref="pkg:npm/react-spinners@0.13.7"/>
+        <dependency ref="pkg:npm/is-what@4.1.8"/>
+        <dependency ref="pkg:npm/copy-anything@3.0.3">
+            <dependency ref="pkg:npm/is-what@4.1.8"/>
+        </dependency>
+        <dependency ref="pkg:npm/superjson@1.9.1">
+            <dependency ref="pkg:npm/copy-anything@3.0.3"/>
+        </dependency>
+        <dependency ref="pkg:npm/zod@3.20.2"/>
+        <dependency ref="pkg:npm/%40next/swc-linux-x64-gnu@13.1.1"/>
+        <dependency ref="pkg:npm/%40next/swc-linux-x64-musl@13.1.1"/>
+        <dependency ref="pkg:npm/%40prisma/engines@4.8.1"/>
+        <dependency ref="pkg:npm/prisma@4.8.1"/>
+        <dependency ref="pkg:npm/software-security-app@0.1.0">
+            <dependency ref="pkg:npm/%40hookform/resolvers@2.9.10"/>
+            <dependency ref="pkg:npm/%40prisma/client@4.8.1"/>
+            <dependency ref="pkg:npm/%40tanstack/react-query@4.22.0"/>
+            <dependency ref="pkg:npm/%40trpc/client@10.8.1"/>
+            <dependency ref="pkg:npm/%40trpc/next@10.8.1"/>
+            <dependency ref="pkg:npm/%40trpc/react-query@10.8.1"/>
+            <dependency ref="pkg:npm/%40trpc/server@10.8.1"/>
+            <dependency ref="pkg:npm/bcrypt@5.1.0"/>
+            <dependency ref="pkg:npm/jose@4.11.2"/>
+            <dependency ref="pkg:npm/jwt-decode@3.1.2"/>
+            <dependency ref="pkg:npm/next@13.1.1"/>
+            <dependency ref="pkg:npm/react@18.2.0"/>
+            <dependency ref="pkg:npm/react-dom@18.2.0"/>
+            <dependency ref="pkg:npm/react-hook-form@7.41.5"/>
+            <dependency ref="pkg:npm/react-spinners@0.13.7"/>
+            <dependency ref="pkg:npm/superjson@1.9.1"/>
+            <dependency ref="pkg:npm/zod@3.20.2"/>
+            <dependency ref="pkg:npm/%40next/swc-linux-x64-gnu@13.1.1"/>
+            <dependency ref="pkg:npm/%40next/swc-linux-x64-musl@13.1.1"/>
+            <dependency ref="pkg:npm/%40prisma/engines@4.8.1"/>
+            <dependency ref="pkg:npm/prisma@4.8.1"/>
+        </dependency>
+    </dependencies>
+</bom>
