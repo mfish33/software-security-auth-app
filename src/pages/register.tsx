@@ -75,7 +75,7 @@ export default function Login() {
           <ConfirmPassword className="text-sm" password={password}/>
           <div className="flex flex-col items-center">
             {!isLoading && <Button className="w-full mb-2 transition-all" disabled={!(username && checkPassword(password).fullyValidated)}>Submit</Button>}
-            {isLoading && <ClipLoader color="white" className="m-auto" size={24}/>}
+            {isLoading && <ClipLoader color="white" className="m-auto mb-4" size={24}/>}
             <Link className="w-full" href="/login"><Button className="w-full" variant="secondary">Sign In</Button></Link>
             {networkError && <p className="text-xs text-red-600">{networkError?.message}</p>}
           </div>
