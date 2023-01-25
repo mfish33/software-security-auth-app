@@ -5,7 +5,7 @@ import type { User } from "@prisma/client";
 type FrontendUser = Omit<User, "password"> & { exp: number }
 
 const AuthContext = createContext({
-  token: "",
+  token: "" as string | null,
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   setAuthState: (token: string) => undefined as void,
   isUserAuthenticated: () => false as boolean,
@@ -15,7 +15,7 @@ const AuthContext = createContext({
 const { Provider } = AuthContext;
 
 const AuthProvider = ({ children }: { children: ReactNode | ReactNode[] }) => {
-  const [token, setToken] = useState(localStorage.getItem("token") ?? "");
+  const [token, setToken] = useState(localStorage.getItem("token"));
 
   const setUserAuthInfo = (newToken: string) => {
     localStorage.setItem("token", newToken);
@@ -23,19 +23,27 @@ const AuthProvider = ({ children }: { children: ReactNode | ReactNode[] }) => {
   };
 
   const signOut = () => {
-    setToken("")
+    setToken(null)
   }
 
   const getUser = () => {
     if(!token) {
       return undefined
     }
-    return jwt_decode(token)
+    const user: FrontendUser = jwt_decode(token)
+
+    if (Date.now() >= user.exp * 1000) {
+      setToken(null)
+      return undefined;
+    }
+
+    return user
   }
 
   // checks if the user is authenticated or not
   const isUserAuthenticated = () => {
-    if (!token) {
+    const user = getUser()
+    if (!user) {
       return false;
     }
     return true

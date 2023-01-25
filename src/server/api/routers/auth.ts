@@ -2,13 +2,13 @@ import { TRPCError } from "@trpc/server";
 import { z } from "zod";
 import { createTRPCRouter, publicProcedure } from "../trpc";
 import { createSecretKey } from "crypto";
-import { serverEnv } from "../../../env/schema.mjs";
 import { SignJWT } from "jose";
 import { compare as comparePassword, hash as hashPassword } from "bcrypt";
 import type { User } from "@prisma/client";
 import { checkPassword } from "../../../utils/shared_utils";
+import { env } from "../../../env/server.mjs";
 
-const SECRET_KEY = createSecretKey(serverEnv.JWT_SECRET!, "utf-8");
+const SECRET_KEY = createSecretKey(env.JWT_SECRET, "utf-8");
 
 export const authRouter = createTRPCRouter({
   login: publicProcedure
