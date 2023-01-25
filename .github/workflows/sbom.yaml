@@ -6,7 +6,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Install and build javascript
+    name: Generate SBOM
+    # Check commit message to not infinitely run action
+    if: "!contains(github.event.head_commit.message, 'Commit SBOM')"
     steps:
       - uses: actions/checkout@v3
         with:
