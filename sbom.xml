@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bom xmlns="http://cyclonedx.org/schema/bom/1.3" serialNumber="urn:uuid:114ccf1f-89ec-4ef3-ac1b-285d9cdfbe1d" version="1">
+<bom xmlns="http://cyclonedx.org/schema/bom/1.3" serialNumber="urn:uuid:4468b3ea-6551-4fc6-8707-642ed5fa2cc0" version="1">
     <metadata>
-        <timestamp>2023-01-25T18:56:09.885Z</timestamp>
+        <timestamp>2023-01-27T17:55:58.266Z</timestamp>
         <tools>
             <tool>
                 <vendor>CycloneDX</vendor>
@@ -2532,22 +2532,22 @@
                 </reference>
             </externalReferences>
         </component>
-        <component type="library" bom-ref="pkg:npm/superjson@1.9.1">
+        <component type="library" bom-ref="pkg:npm/superjson@1.12.1">
             <author>Simon Knott</author>
             <name>superjson</name>
-            <version>1.9.1</version>
+            <version>1.12.1</version>
             <description>
                 <![CDATA[<p align="center">   <img alt="superjson" src="./docs/superjson.png" width="300" /> </p>]]>
             </description>
             <hashes>
-                <hash alg="SHA-512">a13dc70369cf2a5535fb9b5a160cff1c3cbe184698f825846cbcda449543e2067bccc5550b8183345760bc066debf56e224e83d91ed1b4f022087c2677394c9a</hash>
+                <hash alg="SHA-512">1cc4e3e37cefc16e5b0fe242642bc57f80e46500a688b4de9f80be5b55e8823d123cea67871b2b8a880cd38426055187e5bde470820eafa16a43f6a8203c7b4d</hash>
             </hashes>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg:npm/superjson@1.9.1</purl>
+            <purl>pkg:npm/superjson@1.12.1</purl>
             <externalReferences>
                 <reference type="website">
                     <url>https://github.com/blitz-js/superjson#readme</url>
@@ -2942,7 +2942,7 @@
         <dependency ref="pkg:npm/copy-anything@3.0.3">
             <dependency ref="pkg:npm/is-what@4.1.8"/>
         </dependency>
-        <dependency ref="pkg:npm/superjson@1.9.1">
+        <dependency ref="pkg:npm/superjson@1.12.1">
             <dependency ref="pkg:npm/copy-anything@3.0.3"/>
         </dependency>
         <dependency ref="pkg:npm/zod@3.20.2"/>
@@ -2966,7 +2966,7 @@
             <dependency ref="pkg:npm/react-dom@18.2.0"/>
             <dependency ref="pkg:npm/react-hook-form@7.41.5"/>
             <dependency ref="pkg:npm/react-spinners@0.13.7"/>
-            <dependency ref="pkg:npm/superjson@1.9.1"/>
+            <dependency ref="pkg:npm/superjson@1.12.1"/>
             <dependency ref="pkg:npm/zod@3.20.2"/>
             <dependency ref="pkg:npm/%40next/swc-linux-x64-gnu@13.1.1"/>
             <dependency ref="pkg:npm/%40next/swc-linux-x64-musl@13.1.1"/>
