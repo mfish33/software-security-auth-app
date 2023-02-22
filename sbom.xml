@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bom xmlns="http://cyclonedx.org/schema/bom/1.3" serialNumber="urn:uuid:ad60ef8e-9003-467a-b9c2-66797266acf9" version="1">
+<bom xmlns="http://cyclonedx.org/schema/bom/1.3" serialNumber="urn:uuid:a9d71e2e-1c1d-46dd-95f3-0f62305f8327" version="1">
     <metadata>
-        <timestamp>2023-02-22T18:16:09.519Z</timestamp>
+        <timestamp>2023-02-22T18:20:42.255Z</timestamp>
         <tools>
             <tool>
                 <vendor>CycloneDX</vendor>
@@ -13,7 +13,7 @@
             <name>software-security-app</name>
             <version>0.1.0</version>
             <description>
-                <![CDATA[This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.]]>
+                <![CDATA[The project is deployed at https://software-security-auth-app.vercel.app/]]>
             </description>
             <purl>pkg:npm/software-security-app@0.1.0</purl>
         </component>
