@@ -4,6 +4,8 @@ import type { User } from "@prisma/client";
 
 type FrontendUser = Omit<User, "password"> & { exp: number }
 
+export const LOCAL_STORAGE_AUTH_KEY = "token"
+
 const AuthContext = createContext({
   token: "" as string | null,
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -15,15 +17,20 @@ const AuthContext = createContext({
 const { Provider } = AuthContext;
 
 const AuthProvider = ({ children }: { children: ReactNode | ReactNode[] }) => {
-  const [token, setToken] = useState(localStorage.getItem("token"));
+  const [token, setToken] = useState(localStorage.getItem(LOCAL_STORAGE_AUTH_KEY));
 
-  const setUserAuthInfo = (newToken: string) => {
-    localStorage.setItem("token", newToken);
-    setToken(newToken);
+  const setUserAuthInfo = (token: string | null) => {
+    if(token) {
+      localStorage.setItem(LOCAL_STORAGE_AUTH_KEY, token);
+      setToken(token);
+    } else {
+      localStorage.removeItem(LOCAL_STORAGE_AUTH_KEY);
+      setToken(null);
+    }
   };
 
   const signOut = () => {
-    setToken(null)
+    setUserAuthInfo(null)
   }
 
   const getUser = () => {
@@ -33,7 +40,7 @@ const AuthProvider = ({ children }: { children: ReactNode | ReactNode[] }) => {
     const user: FrontendUser = jwt_decode(token)
 
     if (Date.now() >= user.exp * 1000) {
-      setToken(null)
+      setUserAuthInfo(null)
       return undefined;
     }
 

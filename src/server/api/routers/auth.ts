@@ -1,14 +1,9 @@
 import { TRPCError } from "@trpc/server";
 import { z } from "zod";
 import { createTRPCRouter, publicProcedure } from "../trpc";
-import { createSecretKey } from "crypto";
-import { SignJWT } from "jose";
 import { compare as comparePassword, hash as hashPassword } from "bcrypt";
-import type { User } from "@prisma/client";
 import { checkPassword } from "../../../utils/shared_utils";
-import { env } from "../../../env/server.mjs";
-
-const SECRET_KEY = createSecretKey(env.JWT_SECRET, "utf-8");
+import { createJwt } from "./auth.service";
 
 export const authRouter = createTRPCRouter({
   login: publicProcedure
@@ -36,13 +31,22 @@ export const authRouter = createTRPCRouter({
         });
       }
 
-      return createJwt(user)
+      return createJwt(user);
     }),
   register: publicProcedure
-    .input(z.object({ username: z.string(), password: z.string() }))
-    .mutation(async ({ input: { username, password }, ctx }) => {
-      if(!checkPassword(password).fullyValidated) {
-        throw new TRPCError({code: "BAD_REQUEST", message: "Password does not pass validation"})
+    .input(
+      z.object({
+        username: z.string(),
+        password: z.string(),
+        email: z.string().email(),
+      })
+    )
+    .mutation(async ({ input: { username, password, email }, ctx }) => {
+      if (!checkPassword(password).fullyValidated) {
+        throw new TRPCError({
+          code: "BAD_REQUEST",
+          message: "Password does not pass validation",
+        });
       }
 
       const existingUser = await ctx.prisma.user.findUnique({
@@ -58,25 +62,17 @@ export const authRouter = createTRPCRouter({
         });
       }
 
-      const saltRounds = 10
-      const hashedPassword = await hashPassword(password, saltRounds)
+      const saltRounds = 10;
+      const hashedPassword = await hashPassword(password, saltRounds);
 
       const user = await ctx.prisma.user.create({
         data: {
+          email,
           username,
-          password: hashedPassword
-        }
-      })
+          password: hashedPassword,
+        },
+      });
 
-      return createJwt(user)
+      return createJwt(user);
     }),
 });
-
-
-
-function createJwt({username, userId}: User): Promise<string> {
-  return new SignJWT({ username, userId })
-  .setProtectedHeader({ alg: 'HS256' })
-    .setExpirationTime("2h")
-    .sign(SECRET_KEY); 
-}

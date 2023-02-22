@@ -20,7 +20,9 @@ import { type CreateNextContextOptions } from "@trpc/server/adapters/next";
 
 import { prisma } from "../db";
 
-type CreateContextOptions = Record<string, never>;
+type CreateContextOptions = {
+  authHeader: string | undefined;
+};
 
 /**
  * This helper generates the "internals" for a tRPC context. If you need to use
@@ -31,19 +33,22 @@ type CreateContextOptions = Record<string, never>;
  * - trpc's `createSSGHelpers` where we don't have req/res
  * @see https://create.t3.gg/en/usage/trpc#-servertrpccontextts
  */
-const createInnerTRPCContext = (_opts: CreateContextOptions) => {
+async function createInnerTRPCContext({ authHeader }: CreateContextOptions) {
+  const token = authHeader?.replace("Bearer ", "") ?? "";
+  const user = await verifyUser(token);
   return {
+    user,
     prisma,
   };
-};
+}
 
 /**
  * This is the actual context you'll use in your router. It will be used to
  * process every request that goes through your tRPC endpoint
  * @link https://trpc.io/docs/context
  */
-export const createTRPCContext = (_opts: CreateNextContextOptions) => {
-  return createInnerTRPCContext({});
+export const createTRPCContext = (opts: CreateNextContextOptions) => {
+  return createInnerTRPCContext({ authHeader: opts.req.headers.authorization });
 };
 
 /**
@@ -52,8 +57,9 @@ export const createTRPCContext = (_opts: CreateNextContextOptions) => {
  * This is where the trpc api is initialized, connecting the context and
  * transformer
  */
-import { initTRPC } from "@trpc/server";
+import { initTRPC, TRPCError } from "@trpc/server";
 import superjson from "superjson";
+import { verifyUser } from "./routers/auth.service";
 
 const t = initTRPC.context<typeof createTRPCContext>().create({
   transformer: superjson,
@@ -83,3 +89,13 @@ export const createTRPCRouter = t.router;
  * can still access user session data if they are logged in
  */
 export const publicProcedure = t.procedure;
+
+export const protectedProcedure = t.procedure.use(t.middleware(({ ctx, next }) => {
+  if (!ctx.user) {
+    throw new TRPCError({ code: "UNAUTHORIZED" });
+  }
+  return next({ ctx: {
+    ...ctx,
+    user: ctx.user,
+  } });
+}));

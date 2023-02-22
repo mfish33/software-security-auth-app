@@ -9,6 +9,7 @@ import { httpBatchLink, loggerLink } from "@trpc/client";
 import { createTRPCNext } from "@trpc/next";
 import { type inferRouterInputs, type inferRouterOutputs } from "@trpc/server";
 import superjson from "superjson";
+import { LOCAL_STORAGE_AUTH_KEY } from "../contexts/authContext";
 
 import { type AppRouter } from "../server/api/root";
 
@@ -29,6 +30,7 @@ export const api = createTRPCNext<AppRouter>({
        * @see https://trpc.io/docs/data-transformers
        **/
       transformer: superjson,
+      
 
       /**
        * Links used to determine request flow from client to server
@@ -42,6 +44,9 @@ export const api = createTRPCNext<AppRouter>({
         }),
         httpBatchLink({
           url: `${getBaseUrl()}/api/trpc`,
+          headers: {
+            "Authorization": `Bearer ${localStorage.getItem(LOCAL_STORAGE_AUTH_KEY)}`
+          }
         }),
       ],
     };

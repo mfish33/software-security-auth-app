@@ -16,6 +16,7 @@ import Link from "next/link";
 const loginFormParser = z.object({
   username: z.string(),
   password: z.string(),
+  email: z.string().email()
 });
 
 type LoginSchema = z.infer<typeof loginFormParser>;
@@ -64,6 +65,12 @@ export default function Login() {
             {...register("username")}
             label="Username"
             error={errors["username"]?.message}
+          />
+          <TextInput
+            wrapperClassName="!w-full"
+            {...register("email")}
+            label="email"
+            error={errors["email"]?.message}
           />
           <TextInput
             wrapperClassName="!w-full"
