@@ -26,7 +26,7 @@
     "react-dom": "18.2.0",
     "react-hook-form": "^7.41.5",
     "react-spinners": "^0.13.7",
-    "superjson": "1.9.1",
+    "superjson": "1.12.1",
     "zod": "^3.20.2"
   },
   "devDependencies": {
