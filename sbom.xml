@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bom xmlns="http://cyclonedx.org/schema/bom/1.3" serialNumber="urn:uuid:d3cf46e8-b94b-489b-9c43-2c1bc55dd5f8" version="1">
+<bom xmlns="http://cyclonedx.org/schema/bom/1.3" serialNumber="urn:uuid:8340a074-67ab-4181-b71b-629989d2d2b3" version="1">
     <metadata>
-        <timestamp>2023-02-22T20:51:34.159Z</timestamp>
+        <timestamp>2023-02-22T20:54:37.219Z</timestamp>
         <tools>
             <tool>
                 <vendor>CycloneDX</vendor>
@@ -249,23 +249,23 @@
                 </reference>
             </externalReferences>
         </component>
-        <component type="library" bom-ref="pkg:npm/%40trpc/client@10.8.1">
+        <component type="library" bom-ref="pkg:npm/%40trpc/client@10.12.0">
             <author>KATT</author>
             <group>@trpc</group>
             <name>client</name>
-            <version>10.8.1</version>
+            <version>10.12.0</version>
             <description>
                 <![CDATA[tRPC Client lib]]>
             </description>
             <hashes>
-                <hash alg="SHA-512">0d0f98dde93fae3098688f227de7953d55bf2883baaf2c9edf65dd9bd54091d85dd61ba6603ff8acdd8243b2b5ccf4de3696c8a6e72410030469d781e08b5c31</hash>
+                <hash alg="SHA-512">094051684d05a588919cf1a4141f682c3d9c7457797d2cd0c0f491effcd734a323c1d13ee4feeae66b606e1ddb15ecb795889d9a92831606119e5f42cf667b39</hash>
             </hashes>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg:npm/%40trpc/client@10.8.1</purl>
+            <purl>pkg:npm/%40trpc/client@10.12.0</purl>
             <externalReferences>
                 <reference type="website">
                     <url>https://trpc.io</url>
@@ -278,23 +278,23 @@
                 </reference>
             </externalReferences>
         </component>
-        <component type="library" bom-ref="pkg:npm/%40trpc/next@10.8.1">
+        <component type="library" bom-ref="pkg:npm/%40trpc/next@10.12.0">
             <author>KATT</author>
             <group>@trpc</group>
             <name>next</name>
-            <version>10.8.1</version>
+            <version>10.12.0</version>
             <description>
                 <![CDATA[tRPC Next lib]]>
             </description>
             <hashes>
-                <hash alg="SHA-512">2729f8db53e0670a093d4a1d416c674fe008d63feeff46a23aef9f4afc107a8b782c50afeb5427b03e089157587656ff0a720a65640885854eefa4611c736684</hash>
+                <hash alg="SHA-512">531ea32a445f99e2fc72c7e1405501b3da2bd0c097780fd2d6b6dfd8e636d8653095d85f697417865690cbd01ed1ffc3f17aa58a9d22e81558686e22b0a7a3c0</hash>
             </hashes>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg:npm/%40trpc/next@10.8.1</purl>
+            <purl>pkg:npm/%40trpc/next@10.12.0</purl>
             <externalReferences>
                 <reference type="website">
                     <url>https://trpc.io</url>
@@ -335,23 +335,23 @@
                 </reference>
             </externalReferences>
         </component>
-        <component type="library" bom-ref="pkg:npm/%40trpc/react-query@10.8.1">
+        <component type="library" bom-ref="pkg:npm/%40trpc/react-query@10.12.0">
             <author>KATT</author>
             <group>@trpc</group>
             <name>react-query</name>
-            <version>10.8.1</version>
+            <version>10.12.0</version>
             <description>
                 <![CDATA[tRPC React lib]]>
             </description>
             <hashes>
-                <hash alg="SHA-512">3d2a5d7cf14a33f5250fd555b5756d7c0f199aa41952db0fe8447ff90bd78c737a91367dd8f1891a370bd875a15996a62ca9d94a0b9d881eac0ec97b80f70e80</hash>
+                <hash alg="SHA-512">7fc4665f2f243ea7a5ea754b472904ddfef093476456f7862be9f268edbd8d756244f9d3b67f0723de0f687646132aa98b954171cf851a532093572490536340</hash>
             </hashes>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg:npm/%40trpc/react-query@10.8.1</purl>
+            <purl>pkg:npm/%40trpc/react-query@10.12.0</purl>
             <externalReferences>
                 <reference type="website">
                     <url>https://trpc.io</url>
@@ -364,23 +364,23 @@
                 </reference>
             </externalReferences>
         </component>
-        <component type="library" bom-ref="pkg:npm/%40trpc/server@10.8.1">
+        <component type="library" bom-ref="pkg:npm/%40trpc/server@10.12.0">
             <author>KATT</author>
             <group>@trpc</group>
             <name>server</name>
-            <version>10.8.1</version>
+            <version>10.12.0</version>
             <description>
                 <![CDATA[tRPC Server]]>
             </description>
             <hashes>
-                <hash alg="SHA-512">a123588053496e3922e23041c89fd22876ac07f5fb913b046d519a38d347d431cccfadfcc656173d0b9c57ed9b59b8429b91e55e141369537b3abd25b02b9451</hash>
+                <hash alg="SHA-512">803e4508d0880e0c757ee61b09f150808613d47554cec5ed414aef1be9d32c12f5f5e58972dc077ad5980766fbd4d99f2efabf6fe4121f53b33ead56bec1de6a</hash>
             </hashes>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg:npm/%40trpc/server@10.8.1</purl>
+            <purl>pkg:npm/%40trpc/server@10.12.0</purl>
             <externalReferences>
                 <reference type="website">
                     <url>https://trpc.io</url>
@@ -2094,21 +2094,21 @@
                 </reference>
             </externalReferences>
         </component>
-        <component type="library" bom-ref="pkg:npm/next@13.1.1">
+        <component type="library" bom-ref="pkg:npm/next@13.1.2">
             <name>next</name>
-            <version>13.1.1</version>
+            <version>13.1.2</version>
             <description>
                 <![CDATA[The React Framework]]>
             </description>
             <hashes>
-                <hash alg="SHA-512">47978101a21add7ecb25e62fbf56cc7469c0545e1f553a048e29bb3247e571e14fb80358dd8caf1715de7bf03e69cad263060fbcebdfedfeaffc133fe3c79ae7</hash>
+                <hash alg="SHA-512">45d9e76f6607fffff0efc144391fc843a4d781afaaa6d8783aa1527a6e3c9e0d4f6182abe9706c224d5755a45c206337a3a8a21e7ba7d2726f9091c37fe202c9</hash>
             </hashes>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg:npm/next@13.1.1</purl>
+            <purl>pkg:npm/next@13.1.2</purl>
             <externalReferences>
                 <reference type="website">
                     <url>https://nextjs.org</url>
@@ -2121,23 +2121,23 @@
                 </reference>
             </externalReferences>
         </component>
-        <component type="library" bom-ref="pkg:npm/%40next/env@13.1.1">
+        <component type="library" bom-ref="pkg:npm/%40next/env@13.1.2">
             <author>Next.js Team</author>
             <group>@next</group>
             <name>env</name>
-            <version>13.1.1</version>
+            <version>13.1.2</version>
             <description>
                 <![CDATA[Next.js dotenv file loading]]>
             </description>
             <hashes>
-                <hash alg="SHA-512">bc53325ed3e348088e5cecb03288f17ca22a137556379442031fad4f7012de970a8cc2c54c2245516b0abfc842fbced9d45e16debebca93c0315920599de5793</hash>
+                <hash alg="SHA-512">3e94f8519217eba54c4ea5ede0728427efcfc1b4beb569a685995acdac2cd5af9d6d4039a4f7639ed438e89be3eb5ea2dd928df5da12f4b1f1df2e7444b8c05a</hash>
             </hashes>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg:npm/%40next/env@13.1.1</purl>
+            <purl>pkg:npm/%40next/env@13.1.2</purl>
             <externalReferences>
                 <reference type="website">
                     <url>https://github.com/vercel/next.js#readme</url>
@@ -2702,39 +2702,39 @@
                 </reference>
             </externalReferences>
         </component>
-        <component type="library" bom-ref="pkg:npm/%40next/swc-linux-x64-gnu@13.1.1">
+        <component type="library" bom-ref="pkg:npm/%40next/swc-linux-x64-gnu@13.1.2">
             <group>@next</group>
             <name>swc-linux-x64-gnu</name>
-            <version>13.1.1</version>
+            <version>13.1.2</version>
             <description>
                 <![CDATA[This is the **x86_64-unknown-linux-gnu** binary for `@next/swc`]]>
             </description>
             <hashes>
-                <hash alg="SHA-512">9e78ee06b6f3bea68e25a57e5e04fcffe9665eb4823add586199ff8ab6c36f67d1d90a6b2fa43b589360c2c64dc622d27cb76ffb64491867a0071f6c2c113318</hash>
+                <hash alg="SHA-512">4ec2ec8d9c149609af238da7793b88a03e8af51957094cea3edbc80a5817c553b4ba6d03899c0af8cfb4cd7fee55784c56985f3d8d9ce58791d7315220e358e0</hash>
             </hashes>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg:npm/%40next/swc-linux-x64-gnu@13.1.1</purl>
+            <purl>pkg:npm/%40next/swc-linux-x64-gnu@13.1.2</purl>
         </component>
-        <component type="library" bom-ref="pkg:npm/%40next/swc-linux-x64-musl@13.1.1">
+        <component type="library" bom-ref="pkg:npm/%40next/swc-linux-x64-musl@13.1.2">
             <group>@next</group>
             <name>swc-linux-x64-musl</name>
-            <version>13.1.1</version>
+            <version>13.1.2</version>
             <description>
                 <![CDATA[This is the **linux-x64-musl** binary for `@next/swc`]]>
             </description>
             <hashes>
-                <hash alg="SHA-512">08cf719c040d219f337ff8a06c84ff8b7c566d0658685dfdec7f89ae817954c38252578495a31d40b2f9ae226697cc147cfa0ddddb5f9f6b38a5e4abddacf3fe</hash>
+                <hash alg="SHA-512">7929325e0097c9d1053d391c9dc40e19ea5a7de74fb5ee894ff3a87c1f6ebebbae72bacc5416a008048eb8fc6875610cae57c42925d59c4c4c28895f990303ec</hash>
             </hashes>
             <licenses>
                 <license>
                     <id>MIT</id>
                 </license>
             </licenses>
-            <purl>pkg:npm/%40next/swc-linux-x64-musl@13.1.1</purl>
+            <purl>pkg:npm/%40next/swc-linux-x64-musl@13.1.2</purl>
         </component>
         <component type="library" bom-ref="pkg:npm/%40prisma/engines@4.8.1">
             <author>Tim Suchanek</author>
@@ -2810,13 +2810,13 @@
         <dependency ref="pkg:npm/%40tanstack/react-table@8.7.9">
             <dependency ref="pkg:npm/%40tanstack/table-core@8.7.9"/>
         </dependency>
-        <dependency ref="pkg:npm/%40trpc/client@10.8.1"/>
+        <dependency ref="pkg:npm/%40trpc/client@10.12.0"/>
         <dependency ref="pkg:npm/react-ssr-prepass@1.5.0"/>
-        <dependency ref="pkg:npm/%40trpc/next@10.8.1">
+        <dependency ref="pkg:npm/%40trpc/next@10.12.0">
             <dependency ref="pkg:npm/react-ssr-prepass@1.5.0"/>
         </dependency>
-        <dependency ref="pkg:npm/%40trpc/react-query@10.8.1"/>
-        <dependency ref="pkg:npm/%40trpc/server@10.8.1"/>
+        <dependency ref="pkg:npm/%40trpc/react-query@10.12.0"/>
+        <dependency ref="pkg:npm/%40trpc/server@10.12.0"/>
         <dependency ref="pkg:npm/detect-libc@2.0.1"/>
         <dependency ref="pkg:npm/ms@2.1.2"/>
         <dependency ref="pkg:npm/debug@4.3.4">
@@ -2962,7 +2962,7 @@
         </dependency>
         <dependency ref="pkg:npm/jose@4.11.2"/>
         <dependency ref="pkg:npm/jwt-decode@3.1.2"/>
-        <dependency ref="pkg:npm/%40next/env@13.1.1"/>
+        <dependency ref="pkg:npm/%40next/env@13.1.2"/>
         <dependency ref="pkg:npm/tslib@2.4.1"/>
         <dependency ref="pkg:npm/%40swc/helpers@0.4.14">
             <dependency ref="pkg:npm/tslib@2.4.1"/>
@@ -2980,8 +2980,8 @@
         <dependency ref="pkg:npm/styled-jsx@5.1.1">
             <dependency ref="pkg:npm/client-only@0.0.1"/>
         </dependency>
-        <dependency ref="pkg:npm/next@13.1.1">
-            <dependency ref="pkg:npm/%40next/env@13.1.1"/>
+        <dependency ref="pkg:npm/next@13.1.2">
+            <dependency ref="pkg:npm/%40next/env@13.1.2"/>
             <dependency ref="pkg:npm/%40swc/helpers@0.4.14"/>
             <dependency ref="pkg:npm/caniuse-lite@1.0.30001442"/>
             <dependency ref="pkg:npm/postcss@8.4.14"/>
@@ -3008,8 +3008,8 @@
             <dependency ref="pkg:npm/copy-anything@3.0.3"/>
         </dependency>
         <dependency ref="pkg:npm/zod@3.20.2"/>
-        <dependency ref="pkg:npm/%40next/swc-linux-x64-gnu@13.1.1"/>
-        <dependency ref="pkg:npm/%40next/swc-linux-x64-musl@13.1.1"/>
+        <dependency ref="pkg:npm/%40next/swc-linux-x64-gnu@13.1.2"/>
+        <dependency ref="pkg:npm/%40next/swc-linux-x64-musl@13.1.2"/>
         <dependency ref="pkg:npm/%40prisma/engines@4.8.1"/>
         <dependency ref="pkg:npm/prisma@4.8.1"/>
         <dependency ref="pkg:npm/software-security-app@0.1.0">
@@ -3017,22 +3017,22 @@
             <dependency ref="pkg:npm/%40prisma/client@4.8.1"/>
             <dependency ref="pkg:npm/%40tanstack/react-query@4.22.0"/>
             <dependency ref="pkg:npm/%40tanstack/react-table@8.7.9"/>
-            <dependency ref="pkg:npm/%40trpc/client@10.8.1"/>
-            <dependency ref="pkg:npm/%40trpc/next@10.8.1"/>
-            <dependency ref="pkg:npm/%40trpc/react-query@10.8.1"/>
-            <dependency ref="pkg:npm/%40trpc/server@10.8.1"/>
+            <dependency ref="pkg:npm/%40trpc/client@10.12.0"/>
+            <dependency ref="pkg:npm/%40trpc/next@10.12.0"/>
+            <dependency ref="pkg:npm/%40trpc/react-query@10.12.0"/>
+            <dependency ref="pkg:npm/%40trpc/server@10.12.0"/>
             <dependency ref="pkg:npm/bcrypt@5.1.0"/>
             <dependency ref="pkg:npm/jose@4.11.2"/>
             <dependency ref="pkg:npm/jwt-decode@3.1.2"/>
-            <dependency ref="pkg:npm/next@13.1.1"/>
+            <dependency ref="pkg:npm/next@13.1.2"/>
             <dependency ref="pkg:npm/react@18.2.0"/>
             <dependency ref="pkg:npm/react-dom@18.2.0"/>
             <dependency ref="pkg:npm/react-hook-form@7.41.5"/>
             <dependency ref="pkg:npm/react-spinners@0.13.7"/>
             <dependency ref="pkg:npm/superjson@1.12.1"/>
             <dependency ref="pkg:npm/zod@3.20.2"/>
-            <dependency ref="pkg:npm/%40next/swc-linux-x64-gnu@13.1.1"/>
-            <dependency ref="pkg:npm/%40next/swc-linux-x64-musl@13.1.1"/>
+            <dependency ref="pkg:npm/%40next/swc-linux-x64-gnu@13.1.2"/>
+            <dependency ref="pkg:npm/%40next/swc-linux-x64-musl@13.1.2"/>
             <dependency ref="pkg:npm/%40prisma/engines@4.8.1"/>
             <dependency ref="pkg:npm/prisma@4.8.1"/>
         </dependency>
