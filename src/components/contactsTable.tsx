@@ -27,7 +27,7 @@ export function ContactsTable() {
       {table.getHeaderGroups().map((headerGroup) => (
         <tr key={headerGroup.id}>
           {headerGroup.headers.map((header) => (
-            <th key={header.id} className="p-1 bg-[hsl(280,100%,70%)] text-white text-center min-w-[10rem]">
+            <th key={header.id} className="p-1 border border-[hsl(280,100%,70%)] bg-[hsl(280,100%,70%)] text-white text-center min-w-[15rem]">
               {header.isPlaceholder
                 ? null
                 : flexRender(
@@ -41,9 +41,9 @@ export function ContactsTable() {
     </thead>
     <tbody>
       {table.getRowModel().rows.map((row) => (
-        <tr key={row.id}>
+        <tr key={row.id} className="child:border-t-0">
           {row.getVisibleCells().map((cell) => (
-            <td key={cell.id} className="border border-white">
+            <td key={cell.id} className="border border-white text-center">
               {flexRender(
                 cell.column.columnDef.cell,
                 cell.getContext()
